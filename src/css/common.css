@@ -1,0 +1,72 @@
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: #fff;
+  background-color: #121212;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  min-width: 320px;
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    min-width: 335px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    min-width: 704px;
+    padding: 0 32px;
+  }
+
+  .section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    min-width: 1080px;
+    padding: 0 100px;
+  }
+
+  .section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    min-width: 1240px;
+    padding: 0 100px;
+  }
+
+  .section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+}
