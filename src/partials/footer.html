@@ -3,7 +3,7 @@
     <!-- Зміст футера -->
      <div class="footer-contacts">
       <div class="footer-contacts-inner">
-        <a class="footer-contacts-link link" href="./index.html">
+        <a class="footer-contacts-logo link" href="./index.html">
           <svg class="footer-contacts-icon" width="123" height="16">
             <use href="./img/icons.svg#icon-logo"></use>
           </svg>
@@ -51,9 +51,9 @@
                 <div class="footer-reg">
                     <form class="footer-reg-form">
                         <div class="footer-input-inner">
-                            <input class="footer-input" id="footer-reg" placeholder="Enter your email">
+                            <input class="footer-input" id="footer-reg" type="email" name="email" required multiple minlength="10" maxlength="64" placeholder="Enter your email" pattern=".+@beststartupever\.com">
                         </div>
-                        <button class="footer-button-reg" type="button">Go</button>
+                        <button class="footer-button-reg" type="submit">Go</button>
                     </form>
                 </div>
 
