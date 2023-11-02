@@ -1,4 +1,159 @@
 /* Стилі для мобілки починаємо з width: 320px */
+.footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.20);
+}
+.footer-inner {
+    padding-top: 40px;
+}
+
+.footer-contacts {
+    margin-bottom: 40px;
+}
+.footer-contacts-inner {
+margin-bottom: 16px;
+}
+.footer-contacts-link {
+   
+}
+
+.footer-contacts-icon {
+    fill: #fff;
+    width: 127px;
+    height: 20px;
+}
+/* 
+.footer-adress-inner {
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+} */
+
+.footer-adress {
+}
+.footer-contacts-list {
+   
+    color: #FFF;
+
+font-family: DM Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px; /* 128.571% */
+text-transform: uppercase;
+
+
+}
+
+.footer-contacts-item {
+}
+.footer-contacts-item:not(:last-child){
+margin-bottom: 10px;
+}
+
+.footer-soc-menu-box{
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    margin-bottom: 75px;
+}
+
+.footer-socials-box {
+
+}
+.footer-socials-list {
+color: #FFF;
+
+font-family: DM Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.footer-socials-item {
+}
+.footer-socials-item:not(:last-child) {
+    margin-bottom: 14px;
+}
+.footer-socials-link {
+}
+.footer-menu {
+    
+}
+
+.footer-menu-item:not(:last-child) {
+    margin-bottom: 14px;
+}
+.footer-menu-list {
+color: #FFF;
+
+font-family: DM Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.footer-menu-item {
+}
+.footer-menu-link {
+}
+.footer-reg {
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; */
+    margin-bottom: 40px;
+}
+.footer-input {
+    color: #121212;
+
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 125% */
+padding-left: 18px;
+padding-right: auto;
+width: 267px;
+height: 60px;
+border-radius: 12px;
+border: none;
+}
+.footer-button-reg {
+color: #FFF;
+
+text-align: center;
+font-family: DM Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 120%;
+
+border-radius: 12px;
+background: #1D1D1D;
+border: none;
+width: 60px;
+height: 60px;
+}
+.footer-privacy {
+    /* display: flex;
+    flex-direction: row; */
+}
+.footer-privacy-list {
+}
+.footer-privacy-item {
+    max-width: 147px;
+}
+.footer-privacy-item-second{
+    max-width: 116px;
+}
+/* .footer-privacy-item:not(:last-child){
+    margin-right: auto;
+} */
+.footer-privacy-text {
+color: #FFF;
+font-family: DM Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px; /* 133.333% */
+}
+
 
 @media screen and (min-width: 375px) {
 }
