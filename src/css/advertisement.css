@@ -1,5 +1,44 @@
 /* Стилі для мобілки починаємо з width: 320px */
 
+.marquee {
+  overflow: hidden;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 59px;
+  text-transform: uppercase;
+  background-color: #121212;
+}
+
+.marquee__inner {
+  display: flex;
+}
+
+.marquee__line {
+  flex-shrink: 0;
+  margin: 0;
+  padding: 15px 750px;
+  min-width: 100%;
+  white-space: nowrap;
+  animation-name: marqueeLine;
+  animation-duration: 20s;
+  animation-timing-function: liniar;
+  animation-iteration-count: infinite;
+  color: #bea69e;
+}
+.run {
+  color: #fff;
+}
+
+@keyframes marqueeLine {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
 @media screen and (min-width: 375px) {
 }
 
