@@ -3,7 +3,9 @@
 }
 
 .header-wrapper {
-  width: 320px;
+  padding: 0 20px;
+  margin: 0 auto;
+  width: 335px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,15 +13,12 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: #121212;
 }
+
 .nav-list {
   display: none;
 }
 
 .nav-logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 15px 0;
   margin-right: 90px;
 }
 .nav-svg-logo {
@@ -27,28 +26,128 @@
 }
 
 .header-button-camera {
-  width: 100%;
+  width: 32px;
+  height: 32px;
   border: none;
   padding: 8px;
   background-color: #1d1d1d;
   border-radius: 50%;
-  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 14px;
 }
+
 .header-svg-camera {
   fill: rgba(190, 166, 158, 0.4);
 }
 
 .header-button-burger-menu {
+  padding: 16px 0;
   border: none;
-  width: 100%;
   background-color: #121212;
+  margin-left: 14px;
 }
+
 .header-svg-burger {
   display: block;
   color: transparent;
   stroke: white;
+}
+
+@media screen and (min-width: 375px) {
+}
+
+@media screen and (min-width: 768px) {
+  .header-wrapper {
+    width: 504px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .header-button-camera {
+    display: none;
+  }
+  .nav-logo {
+    margin-right: 301px;
+  }
+
+  .header-button-burger-menu {
+    padding: 16px 0;
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header-wrapper {
+    padding: 0 50px;
+    width: 822px;
+  }
+  .header-button-camera {
+    display: none;
+  }
+  .nav-logo {
+    padding: 22px 0;
+    margin-right: 93px;
+  }
+
+  .nav {
+    display: flex;
+  }
+
+  .nav-list {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .nav-link {
+    padding: 21px 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  .nav-link:hover,
+  .nav-link:focus {
+    color: #747bff;
+  }
+  .header-button-burger-menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header-wrapper {
+    width: 982px;
+  }
+  .header-button-camera {
+    display: none;
+  }
+  .nav-logo {
+    margin-right: 200px;
+  }
+
+  .nav-list {
+    display: flex;
+    gap: 40px;
+  }
+
+  .nav-link {
+    padding: 21px 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  .nav-link:hover,
+  .nav-link:focus {
+    color: #747bff;
+  }
+  .header-button-burger-menu {
+    display: none;
+  }
 }
