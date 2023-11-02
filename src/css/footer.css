@@ -1,7 +1,57 @@
 /* Стилі для мобілки починаємо з width: 320px */
 .footer {
     border-top: 1px solid rgba(255, 255, 255, 0.20);
+    background-image: url("/src/img/footer/png/graphic_mob.png");
+    background-image: image-set(
+    url("/src/img/footer/webp/graphic_mob_w.webp") 1x,
+    url("/src/img/footer/webp/graphic_mob_w@2x.webp") 2x,
+    url("/src/img/footer/png/graphic_mob.png") 1x,
+    url("/src/img/footer/png/graphic_mob@2x.png") 2x
+  );
 }
+
+@media screen and (min-width: 767.98px) {
+  .footer {
+    
+    border-top: 1px solid rgba(255, 255, 255, 0.20);
+    background-image: url("/src/img/footer/png/graphic_tab.png");
+    background-image: image-set(
+    url("src\img\footer\webp\graphic_tab_w.webp") 1x,
+    url("src\img\footer\webp\graphic_tab_w@2x.webp") 2x,
+    url("/src/img/footer/png/graphic_tab.png") 1x,
+    url("/src/img/footer/png/graphic_tab@2x.png") 2x)
+  }
+}
+
+
+@media screen and (min-width: 1279.98px) {
+  .footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.20);
+    background-image: url("/src/img/footer/png/graphic_desc.png");
+    background-image: image-set(
+    url("src\img\footer\webp\graphic_desc_w.webp") 1x,
+    url("src\img\footer\webp\graphic_desc_w@2x.webp") 2x,
+    url("/src/img/footer/png/graphic_desc.png") 1x,
+    url("/src/img/footer/png/graphic_desc@2x.png") 2x)
+  }
+}
+
+@media screen and (min-width: 1439.98px) {
+  .footer {
+    
+    border-top: 1px solid rgba(255, 255, 255, 0.20);
+    background-image: url("/src/img/footer/png/graphic_high-desc.png");
+    background-image: image-set(
+    url("src\img\footer\webp\graphic_high-desc_w.webp") 1x,
+    url("src\img\footer\webp\graphic_high-desc_w@2x.webp") 2x,
+    url("/src/img/footer/png/graphic_high-desc.png") 1x,
+    url("/src/img/footer/png/graphic_high-desc@2x.png") 2x)
+  }
+}
+
+
+
+
 .footer-inner {
     padding-top: 40px;
 }
