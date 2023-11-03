@@ -1,13 +1,118 @@
 /* Стилі для мобілки починаємо з width: 320px */
 
+.about-title {
+  /* outline: 2px solid red; */
+  color: #FFF;
+
+font-size: 28px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: -0.04em;
+margin-bottom: 40px;
+}
+
+.about-us {
+  color: #BEA69E;
+}
+
+
+.about-picture {
+display: flex;
+justify-content: center;
+
+margin-bottom: 40px;
+}
+
+.about-camera {
+  height: 209px;
+  width: 335px;
+  border-radius: 1000px;
+  object-fit: cover;
+
+}
+
+.about {
+  /* outline: 2px solid red; */
+  display: block;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  color:  #FFF;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.29;
+letter-spacing: -0.02em;
+  width: 100%;
+}
+
+.about-text:nth-child(1) {
+  margin-bottom: 20px;
+}
+
+
+
 @media screen and (min-width: 375px) {
+
+  .about-camera {
+  min-width: 209px;
+
+}
+.about-text {
+  width: 335px;
+}
 }
 
 @media screen and (min-width: 768px) {
+
+  .about-title {
+  font-size: 48px;
+  line-height: 1.13;
+
+  margin-bottom: 50px;
+  }
+
+  .about-picture {
+    margin-bottom: 50px;
+    }
+    
+    .about-camera {
+      height: 340px;
+      width: 704px;  
+    }
+
+  .about {
+    display: flex;
+    margin-bottom: 0;
+    gap: 40px;
+  }
+
+  .about-text { 
+    font-size: 16px;
+    line-height: 1.25;
+
+    max-width: 280px;
+  }
+
+  .about-text:nth-child(1) {
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (min-width: 1280px) {
+
+  .about-picture {
+    justify-content: flex-start;
+  }
 }
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 1440px) {
 }
