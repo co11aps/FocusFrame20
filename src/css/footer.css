@@ -63,7 +63,6 @@
 }
 @media screen and (min-width: 767.98px) {
     .footer-contacts {
-        margin-right: 58px;
         margin-bottom: 133px;
     }}
 
@@ -136,21 +135,21 @@
 @media screen and (min-width: 767.98px) {
     .footer-soc-menu-box{
     column-gap: 25px;
-    margin-right: auto;
+    margin: 0 auto;
 }   
 }
 
 @media screen and (min-width: 1279.98px) {
     .footer-soc-menu-box{
     column-gap: 50px;
-    margin-right: auto;
+    margin: 0 auto;
 }
 }
 
 @media screen and (min-width: 1439.98px) {
     .footer-soc-menu-box{
     column-gap: 100px;
-     margin-right: auto;
+     margin: 0 auto;
 }
 }
 
