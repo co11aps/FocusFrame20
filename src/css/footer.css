@@ -2,6 +2,7 @@
 .footer {
     border-top: 1px solid rgba(255, 255, 255, 0.20);
     background-image: url("/img/footer/png/graphic_mob.png");
+    background-position: center center;
     background-image: image-set(
     url("/img/footer/webp/graphic_mob_w.webp") 1x,
     url("/img/footer/webp/graphic_mob_w@2x.webp") 2x,
