@@ -50,10 +50,24 @@
 }
 
 
-
-
 .footer-inner {
     padding-top: 40px;
+}
+@media screen and (min-width: 767.98px) {
+    .footer-inner {
+    padding-top: 50px;
+}
+}
+
+@media screen and (min-width: 768px) {
+
+    
+}
+
+@media screen and (min-width: 1280px) {
+}
+
+@media screen and (min-width: 1440px) {
 }
 
 .footer-contacts {
@@ -66,12 +80,34 @@
    
 }
 
-
 .footer-contacts-icon {
     fill: #fff;
     width: 127px;
     height: 20px;
 }
+
+@media screen and (min-width: 768px) {
+    .footer-contacts-icon {
+    width: 123px;
+    height: 16.2px;
+}   
+}
+
+@media screen and (min-width: 1280px) {
+    .footer-contacts-icon {
+    width: 123px;
+    height: 16px;
+}
+}
+
+@media screen and (min-width: 1440px) {
+    .footer-contacts-icon {
+    width: 123px;
+    height: 16px;
+}
+}
+
+
 .footer-contacts-icon:hover,
 .footer-contacts-icon:focus {
     fill: #BEA69E;
@@ -171,7 +207,8 @@
 
 }
 .footer-input-inner{
-
+    width: 100%;
+    max-width: 267px;
 }
 .footer-input {
     color: #121212;
@@ -181,10 +218,11 @@
     font-weight: 400;
     line-height: 1.25; 
     padding-left: 18px;
-    max-width:100%;
     height: 60px;
     border-radius: 12px;
     border: none;
+    width:100%;
+    max-width: 267px;
 }
 
 
@@ -201,8 +239,8 @@
     border-radius: 12px;
     background: #1D1D1D;
     border: none;
-    width: 60px;
-    height: 60px;
+    min-width: 60px;
+    min-height: 60px;
 }
 
 .footer-button-reg:disabled {
@@ -239,6 +277,13 @@
     font-weight: 400;
     line-height: 1.33; 
 }
+@media screen and (min-width: 767.98px) {
+    .footer-privacy-text{
+        font-size: 14px;
+        line-height: 1.28;
+    }
+}
+
 .footer-privacy-list{
     margin-bottom: 25px;
 }
@@ -247,6 +292,8 @@
 }
 
 @media screen and (min-width: 768px) {
+
+    
 }
 
 @media screen and (min-width: 1280px) {
