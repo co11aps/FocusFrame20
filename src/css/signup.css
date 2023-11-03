@@ -4,6 +4,9 @@
   padding-bottom: 80px;
 }
 .container {
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 .contact-sign-up {
   padding-top: 40px;
@@ -77,6 +80,10 @@
   color: #bea69e;
   background: #1d1d1d;
 }
+.button-sign-up:focus {
+  color: #bea69e;
+  background: #1d1d1d;
+}
 .bloc-sign-up {
   display: none;
 }
@@ -87,6 +94,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
   .contact-sign-up {
     width: 480px;
   }
@@ -123,6 +133,9 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+  }
   .container-sign-up {
     display: flex;
     gap: 60px;
@@ -161,6 +174,9 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
   .container-sign-up {
     gap: 200px;
   }
