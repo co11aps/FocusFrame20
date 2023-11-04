@@ -43,8 +43,18 @@
     line-height: 18px; /* 128.571% */
     letter-spacing: -0.28px;
 }
+.hero-students-reviews{
+    display: flex;
+}
 .arrow-svg{
     fill: #FFF;
+}
+.hero-students-list{
+    display: flex;
+}
+.hero-students-li{
+    max-width: 44px;
+    max-height: 44px;
 }
 .star{
     position: relative;
@@ -63,8 +73,15 @@
 }
 .hero-reviews{
     display: flex;
-    align-items: center;
+    align-items: top;
     gap: 12px;
+}
+.hero-reviews-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    height: 44px;
 }
 .hero-reviews-p{
     font-size: 14px;
@@ -88,6 +105,7 @@
         width: 375px;
     }
 
+
 }
 @media screen and (min-width: 768px) {
     .hero-section{
@@ -107,6 +125,23 @@
         font-size: 60px;
         line-height: 64px;
         letter-spacing: -2.4px;
+    }
+    .hero-students-li{
+        max-width: 54px;
+        max-height: 54px;
+    }
+    .star{
+        width: 50px;
+        height: 50px;
+    }
+    .hero-reviews-text{
+        gap: 8px;
+        height: 50px;
+    }
+    .hero-reviews-p{
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: -0.64px;
     }
     
 }
