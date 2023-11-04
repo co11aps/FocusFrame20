@@ -89,10 +89,10 @@
   display: none;
 }
 @media screen and (min-width: 375px) {
-.container{
+  .container {
     width: 375px;
-}
-    .contact-sign-up {
+  }
+  .contact-sign-up {
     width: 320px;
   }
 }
@@ -168,6 +168,7 @@
   .list-sign-up-video {
     width: 340px;
     height: 540px;
+    padding: 139px 48px 88px 48px;
     border-radius: 1000px;
     background: #1d1d1d;
   }
