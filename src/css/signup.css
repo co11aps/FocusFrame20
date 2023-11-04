@@ -72,6 +72,7 @@
   text-decoration-line: underline;
 }
 .button-sign-up {
+  border: none;
   display: flex;
   width: 100%;
   margin: 40px 0 20px 0;
@@ -89,10 +90,6 @@
   text-transform: uppercase;
 }
 .button-sign-up:hover {
-  color: #bea69e;
-  background: #1d1d1d;
-}
-.button-sign-up:focus {
   color: #bea69e;
   background: #1d1d1d;
 }
