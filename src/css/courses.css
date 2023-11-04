@@ -73,12 +73,38 @@ color: #FFF;
                 flex-shrink: 0;
                 border-radius: 12px;
                 border: 1px solid rgba(255, 255, 255, 0.20);
-                background: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
+                /* background: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
+                animation: animateBackground 4s linear infinite; */
+
+                background: linear-gradient(180deg, #060707 0%, #1D1D1D 50%, #BEA69E 100%);
+                    background-size: 200% 200%;
+                    /* Увеличиваем размер градиента */
+                    animation: animateBackground 10s cubic-bezier(0.6, -0.28, 0.74, 0.05) infinite;
                 padding: 28px;
                 position: relative;
-    
+            
 }
     
+@-webkit-keyframes animateBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+
+@keyframes animateBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
 
 .courses-link-div{
 display: flex;
