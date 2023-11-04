@@ -9,8 +9,10 @@
         shortly.</p>
 
       <form class="form-sign-up">
-        <input class="input-sign-up" id="user-subscribe" type="name" pattern="[A-Za-z]{20}" name="modal-name" placeholder="Enter your name">
-        <input class="input-sign-up" id="user-subscribe" type="email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" name="modal-email" placeholder="Enter your email">
+        <input class="input-sign-up" id="user-subscribe" type="name" pattern="[A-Za-z]{20}" name="modal-name"
+          placeholder="Enter your name">
+        <input class="input-sign-up" id="user-subscribe" type="email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+          name="modal-email" placeholder="Enter your email">
         <textarea class="input-sign-up" name="user-comment" id="user-comment" placeholder="Message" cols="30"
           rows="10"></textarea>
         <div class="checkbox-sign-up">
@@ -26,14 +28,29 @@
     <div class="bloc-sign-up">
       <ul class="bloc-list-sign-up">
         <li class="list-sign-up-camera">
-          <img class="img-sign-up-camera" srcset="/img/sigmup/jpeg/isabella-mendes-unsplash-1.png 1x,
-          /img/sigmup/jpeg/isabella-mendes-unsplash-1@2x.png 2x" src="/img/sigmup/jpeg/isabella-mendes-unsplash-1.png"
-            width="500" alt="isabella-mendes">
+          <picture class="img-sign-up-camera">
+            <source type="image/webp"
+              srcset="/img/sigmup/webp/isabella-mendes-lrgkulxjcka-unsplash-11128.webp 1x, /img/sigmup/webp/isabella-mendes-lrgkulxjcka-unsplash-11280-2x.webp 2x"
+              media="(min-width: 768px)">
+            <source type="image/png"
+              srcset="/img/sigmup/jpeg/isabella-mendes-unsplash-1.png 1x, /img/sigmup/jpeg/isabella-mendes-unsplash-1@2x.png 2x"
+              media="(min-width: 768px)">
+            <img src="/img/sigmup/jpeg/isabella-mendes-unsplash-1.png" width="500" alt="isabella-mendes">
+          </picture>
         </li>
         <li class="list-sign-up-video">
-          <img class="img-sign-up-video"
-            srcset="/img/sigmup/jpeg/video-entry-product-1.png 1x, /img/sigmup/jpeg/video-entry-product-1@2.png 2x"
-            src="/img/sigmup/jpeg/video-entry-product-1.png" width="350" alt="video-entry">
+
+          <picture class="img-sign-up-camera">
+            <source type="image/webp"
+              srcset="/img/sigmup/webp/video-entry-product-11280.webp 1x, /img/sigmup/webp/video-entry-product-11280-2x.webp 2x"
+              media="(min-width: 768px)">
+            <source type="image/png"
+              srcset="/img/sigmup/jpeg/video-entry-product-1.png 1x, /img/sigmup/jpeg/video-entry-product-1@2x.png 2x"
+              media="(min-width: 768px)">
+            <img src="/img/sigmup/jpeg/video-entry-product-1.png" width="500" alt="isabella-mendes">
+
+          </picture>
+
         </li>
       </ul>
     </div>
