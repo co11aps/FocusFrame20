@@ -49,14 +49,6 @@
   display: flex;
   flex-shrink: 0;
 }
-
-/* .header-svg-camera {
-  fill: rgba(190, 166, 158, 0.4);
-}
-
-.header-svg-camera:focus {
-  fill: #bea69e;
-} */
 .header-svg-camera {
   fill: rgba(190, 166, 158, 0.4);
 }
