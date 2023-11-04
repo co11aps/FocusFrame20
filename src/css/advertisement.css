@@ -57,12 +57,11 @@
   .advertisement {
     margin-bottom: 100px;
   }
-  .advertisement-block {
-    font-size: 40px;
-    line-height: 1.25;
-  }
+
   .advertisement__line {
     padding: 24px 0;
+    font-size: 40px;
+    line-height: 1.25;
   }
 }
 
@@ -71,7 +70,7 @@
     margin-bottom: 150px;
   }
 
-  .advertisement-block {
+  .advertisement__line {
     font-size: 59px;
     line-height: 1.08;
   }
