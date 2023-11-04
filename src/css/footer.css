@@ -1,13 +1,315 @@
 /* Стилі для мобілки починаємо з width: 320px */
+.footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.20);
+    background-image: url("/img/footer/png/graphic_mob.png");
+    background-position: center center;
+    background-image: image-set(
+    url("/img/footer/webp/graphic_mob_w.webp") 1x,
+    url("/img/footer/webp/graphic_mob_w@2x.webp") 2x,
+    url("/img/footer/png/graphic_mob.png") 1x,
+    url("/img/footer/png/graphic_mob@2x.png") 2x
+  );
+}
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 767.98px) {
+  .footer {
+    background-image: url("/img/footer/png/graphic_tab.png");
+    background-image: image-set(
+    url("/img/footer/webp/graphic_tab_w.webp") 1x,
+    url("/img/footer/webp/graphic_tab_w@2x.webp") 2x,
+    url("/img/footer/png/graphic_tab.png") 1x,
+    url("/img/footer/png/graphic_tab@2x.png") 2x)
+  }
+}
+
+
+@media screen and (min-width: 1279.98px) {
+  .footer {
+    background-image: url("/src/img/footer/png/graphic_desc.png");
+    background-image: image-set(
+    url("/img/footer/webp/graphic_desc_w.webp") 1x,
+    url("/img/footer/webp/graphic_desc_w@2x.webp") 2x,
+    url("/img/footer/png/graphic_desc.png") 1x,
+    url("/img/footer/png/graphic_desc@2x.png") 2x)
+  }
+}
+
+@media screen and (min-width: 1439.98px) {
+  .footer {
+    background-image: url("/img/footer/png/graphic_high-desc.png");
+    background-image: image-set(
+    url("/img/footer/webp/graphic_high-desc_w.webp") 1x,
+    url("/img/footer/webp/graphic_high-desc_w@2x.webp") 2x,
+    url("/img/footer/png/graphic_high-desc.png") 1x,
+    url("/img/footer/png/graphic_high-desc@2x.png") 2x)
+  }
+}
+
+
+.footer-inner {
+    padding-top: 40px;
+}
+@media screen and (min-width: 767.98px) {
+    .footer-inner {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+}
+}
+
+.footer-contacts {
+    margin-bottom: 40px;
+}
+@media screen and (min-width: 767.98px) {
+    .footer-contacts {
+        margin-bottom: 133px;
+    }}
+
+.footer-contacts-inner {
+    margin-bottom: 16px;
+}
+
+@media screen and (min-width: 767.98px) {
+ .footer-contacts-inner {
+    margin-bottom: 25px;
+}
+}
+
+.footer-contacts-icon {
+    fill: #fff;
+    width: 127px;
+    height: 20px;
 }
 
 @media screen and (min-width: 768px) {
+    .footer-contacts-icon {
+    width: 123px;
+    height: 16.2px;
+}   
 }
 
 @media screen and (min-width: 1280px) {
+    .footer-contacts-icon {
+    width: 123px;
+    height: 16px;
+}
 }
 
 @media screen and (min-width: 1440px) {
+    .footer-contacts-icon {
+    width: 123px;
+    height: 16px;
 }
+}
+
+.footer-contacts-icon:hover,
+.footer-contacts-icon:focus {
+    fill: #BEA69E;
+}
+
+.footer-contacts-list {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.28;
+    text-transform: uppercase;
+}
+
+.footer-contacts-item:hover,
+.footer-contacts-item:focus {
+    color: #BEA69E;
+}
+
+.footer-contacts-item:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-soc-menu-box{
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    margin-bottom: 75px;
+}
+
+@media screen and (min-width: 767.98px) {
+    .footer-soc-menu-box{
+    column-gap: 25px;
+    margin: 0 auto;
+}   
+}
+
+@media screen and (min-width: 1279.98px) {
+    .footer-soc-menu-box{
+    column-gap: 50px;
+    margin: 0 auto;
+}
+}
+
+@media screen and (min-width: 1439.98px) {
+    .footer-soc-menu-box{
+    column-gap: 100px;
+     margin: 0 auto;
+}
+}
+
+.footer-socials-list {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.footer-socials-item:hover,
+.footer-socials-item:focus {
+    color: #BEA69E;
+
+}
+.footer-socials-item:not(:last-child) {
+    margin-bottom: 14px;
+}
+
+.footer-menu-item:not(:last-child) {
+    margin-bottom: 14px;
+}
+@media screen and (min-width: 1279.98px) {
+    .footer-socials-item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.footer-menu-item:not(:last-child) {
+    margin-bottom: 20px;
+}
+}
+
+.footer-menu-list {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.footer-menu-item:hover,
+.footer-menu-item:focus {
+    color: #BEA69E;
+}
+
+.footer-reg {
+    margin-bottom: 40px;
+}
+.footer-reg-form{
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+    justify-content: center;
+
+}
+@media screen and (min-width: 1279.98px){
+    .footer-reg-form{
+    column-gap: 16px;
+}
+}
+.footer-input-inner{
+    width: 100%;
+    max-width: 267px;
+}
+.footer-input {
+    color: #121212;
+    
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25; 
+    padding-left: 18px;
+    height: 60px;
+    border-radius: 12px;
+    border: none;
+    width:100%;
+    max-width: 267px;
+}
+@media screen and (min-width: 767.98px){
+    .footer-input-inner{
+    width: 100%;
+    max-width: 178px;
+}
+.footer-input {
+    width:100%;
+    max-width: 178px;
+}
+}
+
+@media screen and (min-width: 1279.98px){
+    .footer-input-inner{
+    width: 100%;
+    max-width: 217px;
+}
+.footer-input {
+    width:100%;
+    max-width: 217px;
+}
+}
+
+
+
+.footer-input::placeholder {
+    opacity: 0.7;
+}
+
+.footer-button-reg {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    border-radius: 12px;
+    background: #1D1D1D;
+    border: none;
+    min-width: 60px;
+    min-height: 60px;
+}
+
+.footer-button-reg:disabled {
+    cursor:not-allowed;
+}
+
+.footer-button-reg:hover,
+.footer-button-reg:focus {
+    color: #BEA69E;
+    
+}
+
+.footer-privacy-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.footer-privacy-item:not(:last-child){
+    margin-right: auto;
+}
+@media screen and (min-width: 767.98px) {
+.footer-privacy{
+    flex-basis: 100%;
+}
+}
+
+.footer-privacy-text {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.33; 
+}
+@media screen and (min-width: 767.98px) {
+    .footer-privacy-text{
+        font-size: 14px;
+        line-height: 1.28;
+    }
+}
+
+.footer-privacy-list{
+    margin-bottom: 25px;
+}
+
