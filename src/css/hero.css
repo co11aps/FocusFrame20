@@ -14,6 +14,11 @@
     url("/img/hero/graphic-mob@2x.png") 2x
   );
 }
+.hero-main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
 .hero-header-span{
     color: #BEA69E;
     font-style: italic;
@@ -23,6 +28,9 @@
     border-radius: 30px;
     background-color: #1D1D1D;
     padding: 40px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .header-main{
     color: #FFF;
@@ -43,19 +51,58 @@
     line-height: 18px; /* 128.571% */
     letter-spacing: -0.28px;
 }
+.hero-students{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
 .hero-students-reviews{
     display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
 }
 .arrow-svg{
     fill: #FFF;
 }
 .hero-students-list{
     display: flex;
+    position: relative;
+    width: 109px;
+    height: 44px;
 }
 .hero-students-li{
     max-width: 44px;
     max-height: 44px;
 }
+
+.girl-1-picture-set{
+    max-width: 44px;
+    max-height: 44px;
+    position: absolute;
+    z-index: 2;
+}
+.boy-picture-set{
+    max-width: 44px;
+    max-height: 44px;
+    position: absolute;
+    transform: translateX(32px);
+    z-index: 1;
+}
+.girl-2-picture-set{
+    max-width: 44px;
+    max-height: 44px;
+    position: absolute;
+    transform: translateX(64px);
+    z-index: 0;
+}
+.hero-text-arrow .hero-text{
+    width: 67px;
+}
+.hero-text-arrow{
+    display: flex;
+    align-items: center;
+}
+
 .star{
     position: relative;
     width: 44px;
@@ -98,11 +145,15 @@
     margin-right: auto;
 
 }
+.cameraboy-picture{
+    width: 259px;
+    height: 314px;
+}
 
 
 @media screen and (min-width: 375px) {
     .hero-div{
-        width: 375px;
+        width: 335px;
     }
 
 
