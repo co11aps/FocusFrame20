@@ -1,5 +1,9 @@
 /* Стилі для мобілки починаємо з width: 320px */
 
+.advertisement {
+  margin-bottom: 80px;
+}
+
 .advertisement-block {
   overflow: hidden;
   text-transform: uppercase;
