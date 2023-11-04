@@ -1,35 +1,46 @@
 /* Стилі для мобілки починаємо з width: 320px */
 
-.marquee {
+.advertisement-block {
   overflow: hidden;
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 400;
-  font-size: 59px;
   text-transform: uppercase;
   background-color: #121212;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  width: 100%;
 }
 
-.marquee__inner {
+.advertisement__inner {
   display: flex;
+  white-space: nowrap;
 }
 
-.marquee__line {
+/* .advertisement-block:hover .advertisement__inner {
+  animation-play-state: paused;
+} */
+
+.advertisement__line {
   flex-shrink: 0;
   margin: 0;
-  padding: 15px 750px;
+  padding: 20px 0px;
   min-width: 100%;
   white-space: nowrap;
-  animation-name: marqueeLine;
+  animation-name: advertisementinner;
   animation-duration: 20s;
-  animation-timing-function: liniar;
+  animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   color: #bea69e;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
 }
+
 .run {
   color: #fff;
 }
 
-@keyframes marqueeLine {
+@keyframes advertisementinner {
   from {
     transform: translateX(0);
   }
@@ -43,9 +54,27 @@
 }
 
 @media screen and (min-width: 768px) {
+  .advertisement {
+    margin-bottom: 100px;
+  }
+  .advertisement-block {
+    font-size: 40px;
+    line-height: 1.25;
+  }
+  .advertisement__line {
+    padding: 24px 0;
+  }
 }
 
 @media screen and (min-width: 1280px) {
+  .advertisement {
+    margin-bottom: 150px;
+  }
+
+  .advertisement-block {
+    font-size: 59px;
+    line-height: 1.08;
+  }
 }
 
 @media screen and (min-width: 1440px) {
