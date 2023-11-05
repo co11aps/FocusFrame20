@@ -217,7 +217,6 @@
 }
 .footer-input {
     color: #121212;
-    
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -228,6 +227,7 @@
     border: none;
     width:100%;
     max-width: 267px;
+    /* box-shadow: inset 0 0 0 2px #0077FF; */
 }
 @media screen and (min-width: 767.98px){
     .footer-input-inner{
@@ -277,6 +277,8 @@
 .footer-button-reg:hover,
 .footer-button-reg:focus {
     color: #BEA69E;
+    /* color: #0077FF;
+    border:2px solid yellow; */
     
 }
 
