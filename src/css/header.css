@@ -1,7 +1,12 @@
 .header {
   padding-top: 20px;
-  padding-bottom: 20px;
   min-width: 320px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 999;
+  text-align: center;
 }
 
 .sing-up {
@@ -68,11 +73,7 @@
 
 @media screen and (min-width: 375px) {
   .header-wrapper-menu {
-    width: 375px;
-  }
-  .header {
-    padding-left: 0;
-    padding-right: 0;
+    width: 335px;
   }
 }
 
