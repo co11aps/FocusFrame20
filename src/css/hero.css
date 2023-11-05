@@ -6,7 +6,7 @@
     justify-content: center;
     display: flex;
     background-image: url("/img/hero/graphic-mob.png");
-    /* background-position: center center; */
+    background-position: center center;
     background-image: image-set(
     url("/img/hero/graphic-mob.webp") 1x,
     url("/img/hero/graphic-mob@2x.webp") 2x,
@@ -14,15 +14,19 @@
     url("/img/hero/graphic-mob@2x.png") 2x
   );
 }
-.hero-header-span{
-    color: #BEA69E;
-    font-style: italic;
-    font-weight: 400;
+.hero-main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
+
 .hero-div{
     border-radius: 30px;
     background-color: #1D1D1D;
     padding: 40px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .header-main{
     color: #FFF;
@@ -34,6 +38,12 @@
     letter-spacing: -1.6px;
     margin-bottom: 20px;
 }
+.hero-header-span{
+    color: #BEA69E;
+    font-weight: 400;
+    font-style: italic;
+
+}
 .hero-text{
     color: #FFF;
     font-family: DM Sans;
@@ -43,19 +53,58 @@
     line-height: 18px; /* 128.571% */
     letter-spacing: -0.28px;
 }
+.hero-students{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
 .hero-students-reviews{
     display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
 }
 .arrow-svg{
     fill: #FFF;
 }
 .hero-students-list{
     display: flex;
+    position: relative;
+    width: 109px;
+    height: 44px;
 }
 .hero-students-li{
     max-width: 44px;
     max-height: 44px;
 }
+
+.girl-1-picture-set{
+    max-width: 44px;
+    max-height: 44px;
+    position: absolute;
+    z-index: 2;
+}
+.boy-picture-set{
+    max-width: 44px;
+    max-height: 44px;
+    position: absolute;
+    transform: translateX(32px);
+    z-index: 1;
+}
+.girl-2-picture-set{
+    max-width: 44px;
+    max-height: 44px;
+    position: absolute;
+    transform: translateX(64px);
+    z-index: 0;
+}
+.hero-text-arrow .hero-text{
+    width: 67px;
+}
+.hero-text-arrow{
+    display: flex;
+    align-items: center;
+}
+
 .star{
     position: relative;
     width: 44px;
@@ -98,11 +147,15 @@
     margin-right: auto;
 
 }
+.cameraboy-picture{
+    width: 259px;
+    height: 314px;
+}
 
 
 @media screen and (min-width: 375px) {
     .hero-div{
-        width: 375px;
+        width: 335px;
     }
 
 
@@ -124,12 +177,51 @@
     .header-main{
         font-size: 60px;
         line-height: 64px;
-        letter-spacing: -2.4px;
+        letter-spacing: normal;
+    }
+    .hero-text{
+        width: 418px;
+    }
+    .hero-text-arrow .hero-text{
+        width: 82px;
+        font-size: 16px;
+        line-height: 20px; /* 125% */
+        letter-spacing: -0.64px;
+    }
+    .hero-students{
+        flex-direction: row;
+        gap: 12px;
+    }
+    .hero-students-list{
+        display: flex;
+        position: relative;
+        width: 137px;
+        height: 54px;
+    }
+    .girl-1-picture-set{
+        max-width: 54px;
+        max-height: 54px;
+    }
+    .boy-picture-set{
+        max-width: 54px;
+        max-height: 54px;
+        transform: translateX(40px);
+    }
+    .girl-2-picture-set{
+        max-width: 54px;
+        max-height: 54px;
+        transform: translateX(83px);
     }
     .hero-students-li{
         max-width: 54px;
         max-height: 54px;
     }
+    .hero-text-arrow{
+        flex-direction: column;
+        align-items: start;
+        gap: 8px;
+    }
+
     .star{
         width: 50px;
         height: 50px;
@@ -142,6 +234,10 @@
         font-size: 16px;
         line-height: 20px;
         letter-spacing: -0.64px;
+    }
+    .cameraboy-picture{
+        width: 393px;
+        height: 434px;
     }
     
 }
@@ -157,11 +253,25 @@
     }
     .hero-div{
         width: 1080px;
+        padding: 80px 50px 0 50px;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .hero-students-reviews{
+        margin-bottom: 50px;
+    }
+    .hero-main-content{
+        gap: 136px;
     }
     .header-main{
         font-size: 64px;
         line-height: 68px;
-        letter-spacing: -2.56px;
+      
+        width: 563px;
+    }
+    .cameraboy-picture{
+        width: 397px;
+        height: 520px;
     }
     
 }
@@ -177,6 +287,8 @@
     }
     .hero-div{
         width: 1240px;
+        padding-right: 100px;
+        justify-content: space-between;
     }
     
 }
