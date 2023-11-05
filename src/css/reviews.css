@@ -1,6 +1,6 @@
 /* Стилі для мобілки починаємо з width: 320px */
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 768px) {
   .section-reviews {
   }
   .container {
