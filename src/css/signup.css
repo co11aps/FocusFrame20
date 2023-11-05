@@ -16,8 +16,8 @@
   font-family: DM Sans;
   font-size: 28px;
   font-weight: 500;
-  line-height: 32px; /* 114.286% */
-  letter-spacing: -1.12px;
+  line-height: 1.14; /* 114.286% */
+  letter-spacing: -0.04em;
   margin-bottom: 20px;
 }
 .title-span-sign-up {
@@ -28,8 +28,8 @@
   font-family: DM Sans;
   font-size: 14px;
   font-weight: 400;
-  line-height: 18px; /* 128.571% */
-  letter-spacing: -0.28px;
+  line-height: 1.28; /* 128.571% */
+  letter-spacing: -0.02em;
   margin-bottom: 41px;
 }
 .textarea-sign-up {
@@ -42,7 +42,7 @@
   color: #fff;
   font-size: 12px;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 1.5;
   opacity: 0.7;
   resize: none;
 }
@@ -56,7 +56,7 @@
   color: #fff;
   font-size: 12px;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 1.5;
   opacity: 0.7;
   resize: none;
 }
@@ -66,7 +66,7 @@
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 16px; /* 133.333% */
+  line-height: 1.33; /* 133.333% */
 }
 .policy-sign-up {
   text-decoration-line: underline;
@@ -86,7 +86,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 20px; /* 125% */
+  line-height: 1.25; /* 125% */
   text-transform: uppercase;
 }
 .button-sign-up:hover {
@@ -114,30 +114,30 @@
   }
   .title-sign-up {
     font-size: 48px;
-    line-height: 54px;
-    letter-spacing: -1.92px;
+    line-height: 1.125;
+    letter-spacing: -0.04em;
   }
   .text-sign-up {
     font-size: 16px;
-    line-height: 20px; /* 125% */
-    letter-spacing: -0.32px;
+    line-height: 1.25; /* 125% */
+    letter-spacing: -0.02em;
   }
   .input-sign-up {
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.25;
   }
   .text-policy-sign-up {
     font-size: 14px;
-    line-height: 18px;
+    line-height: 1.28;
   }
   .policy-sign-up {
     font-size: 14px;
-    line-height: 18px;
+    line-height: 1.28;
   }
   .button-sign-up {
     padding: 16px 216px;
     font-size: 18px;
-    line-height: 28px;
+    line-height: 1.55;
   }
   .bloc-sign-up {
     display: none;
