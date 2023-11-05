@@ -1,30 +1,54 @@
 <!-- header menu -->
-<div class="mobile-menu js-menu-container" id="mobile-menu">
-    <button type="button" class="header-close-button js-close-menu">
-            <svg class="close-button-icon" width="32" height="32">
-                <use href="/src/img//icons.svg#icon-close"></use>
-            </svg>
-        </button>
-    </a>
+<div class="conteiner js-menu-container" id="mobile-menu">
+  <div class="menu-conteiner">
+    <button type="button" class="menu-close-button js-close-menu">
+      <svg class="close-button-icon" width="32" height="32">
+        <use href="/img/icons.svg#icon-close"></use>
+      </svg>
+    </button>
     <nav class="burger-menu-nav">
-        <ul class="header-nav-list">
-            <li class="header-nav-top">
-                <a href="#About us">ABOUT US</a></li>
-            <li class="header-nav">
-                <a href="#our courses" class="burger-menu-link">OUR COURSES</a></li>
-            <li class="header-nav">
-                <a href="#Our mentors" class="burger-menu-link">OUR MENTORS</a></li>
-            <li class="header-nav">
-                <a href="#Reviews" class="burger-menu-link">REVIEWS</a></li>
-            <li class="header-nav">
-                <a href="#contacts" class="burger-menu-link">CONTACTS</a></li>
-            <picture class="burger-menu-img">
-              <source srcset="/img/header/cam-tab.webp 1x, cam-tab@2x.webp 2x"
-              media="(min-width: 768px)"> 
-              <source srcset="/img/header/cam-mob.webp 1x, cam-mob@2x.webp"
-              media="(min-width:375px)">    
-              <img class="mobile-menu-img" src="/img/header/cam-mob.webp" alt="camera" width="329" height="218">       
-            </picture>
-        </ul>
+      <ul class="header-nav-list">
+        <li class="header-nav">
+          <a href="#about">ABOUT US</a>
+        </li>
+        <li class="header-nav">
+          <a href="#courses" class="burger-menu-link">OUR COURSES</a>
+        </li>
+        <li class="header-nav">
+          <a href="#mentors" class="burger-menu-link">OUR MENTORS</a>
+        </li>
+        <li class="header-nav">
+          <a href="#reviews" class="burger-menu-link">REVIEWS</a>
+        </li>
+        <li class="header-nav">
+          <a href="#contacts" class="burger-menu-link">CONTACTS</a>
+        </li>
+        <picture class="burger-menu-img">
+          <source
+            srcset="/img/header/cam-tab.webp 1x, /img/header/cam-tab@2x.webp 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/img/header/cam-tab.png 1x, /img/header/cam-tab@2x.png 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/img/header/cam-mob.webp 1x, /img/header/cam-mob@2x.webp"
+            media="(min-width:375px)"
+          />
+          <source
+            srcset="/img/header/cam-mob.png 1x, /img/header/cam-mob@2x.png"
+            media="(min-width:375px)"
+          />
+          <img
+            class="mobile-menu-img"
+            src="/img/header/cam-mob.png"
+            alt="camera"
+            width="329"
+            height="218"
+          />
+        </picture>
+      </ul>
     </nav>
+  </div>
 </div>
