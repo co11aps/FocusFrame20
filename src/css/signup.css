@@ -169,12 +169,18 @@
     height: 288px;
     border-radius: 1000px;
     background: #bea69e;
-    padding-top: 76px;
+    padding-top: 60px;
     padding-right: 18px;
   }
   .img-sign-up-camera {
     max-width: none;
     width: 150px;
+  }
+  .sign-up-camera {
+    position: relative;
+    width: 220px;
+    margin-left: -45px;
+    max-width: none;
   }
   .list-sign-up-video {
     width: 340px;
@@ -203,12 +209,10 @@
     height: 288px;
   }
   .img-sign-up-camera {
-    padding: 63px 18px 62px 18px;
   }
   .list-sign-up-video {
     width: 350px;
   }
   .img-sign-up-video {
-    padding: 139px 48px 88px 48px;
   }
 }
