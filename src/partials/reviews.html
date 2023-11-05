@@ -5,17 +5,24 @@
     <div class="reviews-boxes">
     <div class="reviews-box">
       <div class="reviews-user-box">
-        <img
-          class="reviews-user-img"
-          src="/img/reviews/reviews-abraham-1x.webp"
-          alt="Abraham Baker"
-          srcset="
-          /img/reviews/reviews-abraham-1x.webp 1x,
-          /img/reviews/reviews-abraham-2x.webp 2x
-          "
-          height="56px"
-          width="56px"
-        />
+        <picture>
+  <source
+    srcset="../img/reviews/reviews-abraham-1x.webp 1x, ../img/reviews/reviews-abraham-2x.webp 2x"
+    type="image/webp"
+  />
+  <source
+    srcset="/img/reviews/reviews-abraham-1x.jpg 1x, /img/reviews/reviews-abraham-2x.jpg 2x"
+    type="image/jpeg"
+  />
+  <img
+    class="reviews-user-img"
+    src="/img/reviews/reviews-abraham-1x.jpg"
+    alt="Abraham Baker"
+    height="56px"
+    width="56px"
+  />
+</picture>
+
         <div class="reviews-user-info">
           <h3 class="revievs-user-name">Abraham Baker</h3>
           <p class="revievs-user-position">Student</p>
@@ -59,17 +66,24 @@
     </div>
     <div class="reviews-box reviews-desktop">
       <div class="reviews-user-box">
-        <img
-          class="reviews-user-img"
-          src="/img/reviews/reviews-amanda-1x.webp"
-          alt="Abraham Baker"
-          srcset="
-          /img/reviews/reviews-amanda-1x.webp 1x,
-          /img/reviews/reviews-amanda-2x.webp 2x
-          "
-          height="56px"
-          width="56px"
-        />
+        <picture>
+  <source
+    srcset="/img/reviews/reviews-amanda-1x.webp 1x, /img/reviews/reviews-amanda-2x.webp 2x"
+    type="image/webp"
+  />
+  <source
+    srcset="/img/reviews/reviews-amanda-1x.jpg 1x, /img/reviews/reviews-amanda-2x.jpg 2x"
+    type="image/jpeg"
+  />
+  <img
+    class="reviews-user-img"
+    src="/img/reviews/reviews-amanda-1x.jpg"
+    alt="Amanda Lowery"
+    height="56px"
+    width="56px"
+  />
+</picture>
+
         <div class="reviews-user-info">
           <h3 class="revievs-user-name">Amanda Lowery</h3>
           <p class="revievs-user-position">Student</p>
