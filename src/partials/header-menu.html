@@ -1,28 +1,30 @@
 <!-- header menu -->
-<div class="conteiner burger-menu">
-        <button type="button" class="mob-men-close-button" data-menu-close>
-            <svg class="close-button-icon" width="8" height="8">
+<div class="mobile-menu js-menu-container" id="mobile-menu">
+    <button type="button" class="header-close-button js-close-menu">
+            <svg class="close-button-icon" width="32" height="32">
                 <use href="/src/img//icons.svg#icon-close"></use>
             </svg>
         </button>
     </a>
     <nav class="burger-menu-nav">
-        <ul>
-            <li class="header-nav-top"><a href="#About us">ABOUT US</a></li>
-            <li class="header-nav"><a href="#our courses" class="burger-menu-link">OUR COURSES</a></li>
-            <li class="header-nav"><a href="#Our mentors" class="burger-menu-link">OUR MENTORS</a></li>
-            <li class="header-nav"><a href="#Reviews" class="burger-menu-link">REVIEWS</a></li>
-            <li class="header-nav"><a href="#contacts" class="burger-menu-link">CONTACTS</a></li>
-            <picture>
-                <source srcset="/src/img/header/cam-tab.jpg 1x, cam-tab@2x.jpg 2x" media="(min-width: 480px)">
-                <source srcset="/src/img/header/cam-mob.jpg 1x, cam-mob.jpg@2x 2x" media="(min-width: 218px)">
-                <img src="/src/img/header/cam-tab.jpg" alt="camera"
-                width="329px"
-                height="218px">
+        <ul class="header-nav-list">
+            <li class="header-nav-top">
+                <a href="#About us">ABOUT US</a></li>
+            <li class="header-nav">
+                <a href="#our courses" class="burger-menu-link">OUR COURSES</a></li>
+            <li class="header-nav">
+                <a href="#Our mentors" class="burger-menu-link">OUR MENTORS</a></li>
+            <li class="header-nav">
+                <a href="#Reviews" class="burger-menu-link">REVIEWS</a></li>
+            <li class="header-nav">
+                <a href="#contacts" class="burger-menu-link">CONTACTS</a></li>
+            <picture class="burger-menu-img">
+              <source srcset="/img/header/cam-tab.webp 1x, cam-tab@2x.webp 2x"
+              media="(min-width: 768px)"> 
+              <source srcset="/img/header/cam-mob.webp 1x, cam-mob@2x.webp"
+              media="(min-width:375px)">    
+              <img class="mobile-menu-img" src="/img/header/cam-mob.webp" alt="camera" width="329" height="218">       
             </picture>
-            <!-- <img src="/src/img/header/cam-mob.jpg" 
-            srcset="/src/img/header/cam-mob@2x.jpg 2x"
-            alt="camera"> -->
         </ul>
     </nav>
 </div>
