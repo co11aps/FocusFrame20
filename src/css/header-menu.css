@@ -1,3 +1,11 @@
 .burger-menu{
+    
 background-color: #BEA69E;
+}
+.conteiner{
+    position:relative;
+    height: 812px;
+    width: 218px;
+    display: flex;
+    flex-direction: column;
 }

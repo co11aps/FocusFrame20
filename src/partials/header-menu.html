@@ -13,9 +13,16 @@
             <li class="header-nav"><a href="#Our mentors" class="burger-menu-link">OUR MENTORS</a></li>
             <li class="header-nav"><a href="#Reviews" class="burger-menu-link">REVIEWS</a></li>
             <li class="header-nav"><a href="#contacts" class="burger-menu-link">CONTACTS</a></li>
-            <img src="/src/img/header/cam-mob.jpg" 
+            <picture>
+                <source srcset="/src/img/header/cam-tab.jpg 1x, cam-tab@2x.jpg 2x" media="(min-width: 480px)">
+                <source srcset="/src/img/header/cam-mob.jpg 1x, cam-mob.jpg@2x 2x" media="(min-width: 218px)">
+                <img src="/src/img/header/cam-tab.jpg" alt="camera"
+                width="329px"
+                height="218px">
+            </picture>
+            <!-- <img src="/src/img/header/cam-mob.jpg" 
             srcset="/src/img/header/cam-mob@2x.jpg 2x"
-            alt="camera">
+            alt="camera"> -->
         </ul>
     </nav>
 </div>
