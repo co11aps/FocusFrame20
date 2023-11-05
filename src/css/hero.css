@@ -19,11 +19,7 @@
     flex-direction: column;
     gap: 40px;
 }
-.hero-header-span{
-    color: #BEA69E;
-    font-style: italic;
-    font-weight: 400;
-}
+
 .hero-div{
     border-radius: 30px;
     background-color: #1D1D1D;
@@ -41,6 +37,12 @@
     line-height: 44px; /* 110% */
     letter-spacing: -1.6px;
     margin-bottom: 20px;
+}
+.hero-header-span{
+    color: #BEA69E;
+    font-weight: 400;
+    font-style: italic;
+
 }
 .hero-text{
     color: #FFF;
@@ -175,7 +177,13 @@
     .header-main{
         font-size: 60px;
         line-height: 64px;
-        letter-spacing: -2.4px;
+    }
+    .hero-text{
+        width: 418px;
+    }
+    .hero-students{
+        flex-direction: row;
+        gap: 12px;
     }
     .hero-students-li{
         max-width: 54px;
@@ -208,11 +216,13 @@
     }
     .hero-div{
         width: 1080px;
+        padding: 80px 50px 0 50px;
     }
     .header-main{
         font-size: 64px;
         line-height: 68px;
-        letter-spacing: -2.56px;
+        letter-spacing: -1.13px;
+        width: 563px;
     }
     
 }
@@ -228,6 +238,7 @@
     }
     .hero-div{
         width: 1240px;
+        padding-right: 100px;
     }
     
 }
