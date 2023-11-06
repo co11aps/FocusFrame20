@@ -58,6 +58,9 @@
 .header-nav:hover{
 font-weight: 700;
 }
+.burger-menu-img{
+    width: 100%;
+}
 
 @media screen and (min-width: 768px;){
     .menu-conteiner{
