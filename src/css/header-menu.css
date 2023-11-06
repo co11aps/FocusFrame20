@@ -31,7 +31,7 @@
   top: 0;
   right: 0;
   width: 218px;
-  height: 100vh;
+  height: 812px;
   padding-top: 180px;
   padding-bottom: 0;
   padding-left: 20px;
@@ -98,6 +98,7 @@
 
   .menu-container {
     width: 480px;
+    height: 1024px;
     padding-top: 232px;
     padding-bottom: 0;
     padding-left: 64px;
