@@ -141,8 +141,6 @@
     align-items: flex-start;
 
     gap: 60px;
-    padding-top: 75px;
-    padding-bottom: 75px;
   }
   .bloc-sign-up {
     display: flex;
