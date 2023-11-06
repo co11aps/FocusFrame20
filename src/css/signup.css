@@ -1,4 +1,9 @@
 /* Стилі для мобілки починаємо з width: 320px */
+.sign-up {
+  padding-top: 80px;
+}
+
+
 .section-sign-up {
   padding-top: 80px;
   padding-bottom: 80px;
