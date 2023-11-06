@@ -97,6 +97,7 @@
   .header-button-burger-menu {
     padding: 16px 0;
     margin-left: 0;
+    cursor: pointer;
   }
 
   .header-svg-burger {
@@ -117,9 +118,8 @@
   .sing-up:hover,
   .sing-up:focus {
     background-color: #1d1d1d;
-    .sing-up-button-text {
-      color: #bea69e;
-    }
+
+    color: #bea69e;
   }
 
   .sing-up-button-text {
