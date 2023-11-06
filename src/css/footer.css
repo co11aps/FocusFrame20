@@ -24,14 +24,6 @@
 
 @media screen and (min-width: 1279.98px) {
   .footer {
-    /* background-image: url('/src/img/footer/png/graphic_desc.png');
-    background-image: image-set(
-      url('/img/footer/webp/graphic_desc_w.webp') 1x,
-      url('/img/footer/webp/graphic_desc_w@2x.webp') 2x,
-      url('/img/footer/png/graphic_desc.png') 1x,
-      url('/img/footer/png/graphic_desc@2x.png') 2x
-    ); */
-
     background-image: url('/img/footer/png/graphic_desc.png');
     background-image: image-set(
       url('/img/footer/webp/graphic_desc_w.webp') 1x,
