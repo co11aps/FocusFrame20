@@ -10,6 +10,7 @@
 }
 
 .section-reviews {
+  margin-bottom: 80px;
 }
 .container {
 }
@@ -86,6 +87,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .section-reviews {
+    margin-bottom: 100px;
+  }
   .reviews-head {
     font-size: 48px;
     font-weight: 500;
@@ -136,6 +140,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .section-reviews {
+    margin-bottom: 150px;
+  }
+
   .reviews-head {
     margin-bottom: 50px;
   }
