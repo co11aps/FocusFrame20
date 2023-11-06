@@ -1,5 +1,3 @@
-/* Стилі для мобілки починаємо з width: 320px */
-
 .hero-section {
   padding: 90px 20px 80px 20px;
   align-items: center;
@@ -158,6 +156,7 @@
 @media screen and (min-width: 768px) {
   .hero-section {
     padding-top: 120px;
+    padding-bottom: 100px;
     background-image: url('/img/hero/graphic-tab.png');
     background-image: image-set(
       url('/img/hero/graphic-tab.webp') 1x,
@@ -239,6 +238,7 @@
 @media screen and (min-width: 1280px) {
   .hero-section {
     padding-top: 160px;
+    padding-bottom: 150px;
     background-image: url('/img/hero/graphic-desc.png');
     background-image: image-set(
       url('/img/hero/graphic-desk.webp') 1x,
