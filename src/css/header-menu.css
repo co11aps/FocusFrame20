@@ -42,6 +42,7 @@
 @media screen and (min-width: 767.98px)  and (max-width: 1279.98px) {
   .mob-modal {
     max-width: 480px;
+    padding-top: 232px;
 
   }
 }
@@ -101,7 +102,12 @@ gap: 20px;
 margin-left: 20px;
 /* margin-bottom: 133px; */
 }
-
+@media screen and (min-width: 767.98px)  and (max-width: 1279.98px) {
+  .mob-modal {
+  margin-left: 64px;
+  gap: 28px;
+  }
+}
 .mobile-nav-item {
 }
 .mobile-nav-link {
@@ -114,7 +120,7 @@ font-weight: 700;
 text-transform: uppercase;
 }
 .photocamera-menu-img {
- 
+ width: 100%;
 }
 
 /*MOBILE MENU END*/
