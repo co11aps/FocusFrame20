@@ -1,51 +1,79 @@
+<!--MOBILE-MENU-START  -->
+<div class="backdrop js-menu-container" id="mobile-menu">
+  <div class="mob-modal">
+    <button class="mobile-close-btn js-close-menu">
+      <svg class="mobile-menu-icon" width="16" height="16">
+        <use href="./img/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+    <ul class="mobile-nav-list list">
+      <li class="mobile-nav-item">
+        <a class="mobile-nav-link link" href="#about">About us</a>
+      </li>
+      <li class="mobile-nav-item">
+        <a class="mobile-nav-link link" href="#courses">Our courses</a>
+      </li>
+      <li class="mobile-nav-item">
+        <a class="mobile-nav-link link" href="#mentors">Our mentors</a>
+      </li>
+      <li class="mobile-nav-item">
+        <a class="mobile-nav-link link" href="#reviews">Reviews</a>
+      </li>
+      <li class="mobile-nav-item">
+        <a class="mobile-nav-link link" href="#footer">Contacts</a>
+      </li>
+    </ul>
 
+    <picture>
+      <!--MOBILE-->
+      <source
+        srcset="
+          /img/mobile-menu/webp/camera-menu_mob_w.webp    1x,
+          /img/mobile-menu/webp/camera-menu_mob_w@2x.webp 2x
+        "
+        media="(max-width: 767.97px)"
+        type="image/webp"
+      />
+      <source
+        srcset="
+          /img/mobile-menu/webp/camera-menu_tab_w.png  1x,
+          /img/mobile-menu/webp/camera-menu_mob@2x.png 2x
+        "
+        media="(max-width: 767.97px)"
+      />
 
-    <!--MOBILE-MENU-START  -->
-    <div class="backdrop js-menu-container" id="mobile-menu">
-        <div class="mob-modal">
-            <button class="mobile-close-btn">
-                <svg class="mobile-menu-icon" width="16" height="16">
-                    <use href="./img/icons.svg#icon-close"></use>
-                </svg>
-            </button>
-            <ul class="mobile-nav-list list">
-                <li class="mobile-nav-item"><a class="mobile-nav-link link" href="#about">About us</a></li>
-                <li class="mobile-nav-item"><a class="mobile-nav-link link" href="#courses">Our courses</a></li>
-                <li class="mobile-nav-item"><a class="mobile-nav-link link" href="#mentors">Our mentors</a></li>
-                <li class="mobile-nav-item"><a class="mobile-nav-link link" href="#reviews">Reviews</a></li>
-                <li class="mobile-nav-item"><a class="mobile-nav-link link" href="#footer">Contacts</a></li>
-            </ul>
-            
-            <picture>
-                <!--MOBILE-->
-                <source srcset="/img/mobile-menu/webp/camera-menu_mob_w.webp 1x, /img/mobile-menu/webp/camera-menu_mob_w@2x.webp 2x" 
-                media="(max-width: 767.97px)" type="image/webp">
-                <source srcset="/img/mobile-menu/webp/camera-menu_tab_w.png 1x, /img/mobile-menu/webp/camera-menu_mob@2x.png 2x" 
-                media="(max-width: 767.97px)"/>
+      <img
+        class="photocamera-menu-img"
+        src="/img/hero/camera-menu_mob.png "
+        alt="photocamera"
+        width="218"
+      />
 
-                <img
-                class="photocamera-menu-img"
-                src="/img/hero/camera-menu_mob.png "
-                alt="photocamera"
-                width="218"
-                />
-
-                <!--TAB-->
-                <source srcset="/img/mobile-menu/webp/camera-menu_tab_w.webp 1x, /img/mobile-menu/webp/camera-menu_tab_w@2x.webp 2x" 
-                media="(min-width: 767.98px)" type="image/webp">
-                <source srcset="/img/mobile-menu/webp/camera-menu_tab.png 1x, /img/mobile-menu/webp/camera-menu_tab@2x.png 2x" 
-                media="(min-width: 767.98px)"
-                /> 
-                <!-- <img
+      <!--TAB-->
+      <source
+        srcset="
+          /img/mobile-menu/webp/camera-menu_tab_w.webp    1x,
+          /img/mobile-menu/webp/camera-menu_tab_w@2x.webp 2x
+        "
+        media="(min-width: 767.98px)"
+        type="image/webp"
+      />
+      <source
+        srcset="
+          /img/mobile-menu/webp/camera-menu_tab.png    1x,
+          /img/mobile-menu/webp/camera-menu_tab@2x.png 2x
+        "
+        media="(min-width: 767.98px)"
+      />
+      <!-- <img
                 class="photocamera-menu"
                 src="/img/hero/camera-menu_tab.png "
                 alt="Man with a camera"
                 width="476"
                 height="480"
                 />  -->
+    </picture>
+  </div>
+</div>
 
-            </picture>
-             </div>
-        </div>
-
-         <!--MOBILE-MENU-END-->
+<!--MOBILE-MENU-END-->
