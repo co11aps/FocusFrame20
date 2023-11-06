@@ -27,7 +27,6 @@
 
 .about-article {
   display: block;
-  margin-bottom: 20px;
 }
 
 .about-text {
@@ -67,7 +66,6 @@
 
   .about-article {
     display: flex;
-    margin-bottom: 0;
     gap: 40px;
   }
 
