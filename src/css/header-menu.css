@@ -1,5 +1,5 @@
 .conteiner {
-  z-index: 1;
+  z-index: 100;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -23,7 +23,9 @@
   position: absolute;
   top: 0px;
   right: 0px;
-  transition: width 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: transform 250ms ease-in-out;
+background-position: bottom center;
+    background-repeat: no-repeat;
 }
 
 .menu-close-button {
@@ -58,9 +60,7 @@
 .header-nav:hover{
 font-weight: 700;
 }
-.burger-menu-img{
-    padding: ;
-}
+
 
 @media screen and (min-width: 768px;){
     .menu-conteiner{
