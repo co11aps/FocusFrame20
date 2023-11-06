@@ -1,88 +1,120 @@
-.conteiner {
-  z-index: 100;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: rgba(18, 18, 18, 0.4);
-  top: 0;
-  left: 0;
-  visibility: hidden;
-}
-.is-open {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-}
-.menu-conteiner {
-  z-index: 20;
-  display: flex;
-  width: 218px;
-  height: 812px;
-  flex-shrink: 0;
-  background: #bea69e;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-transition: transform 250ms ease-in-out;
-background-position: bottom center;
-    background-repeat: no-repeat;
+
+/*MOBILE MENU START*/
+    .backdrop{
+        /* position: absolute;  */
+        position: fixed;
+        z-index: 100000;
+        top:0 ;
+        left: 0;
+        width: 100%;
+        height: 100%; 
+        inset:0;
+        background-color: rgba(18, 18, 18, 0.40);
+        /* pointer-events: none; 
+        opacity: 0; 
+        visibility: hidden; */
+
+    } 
+
+/* .is-open {
+    opacity: 1;
+    visibility: visible;
+} */
+.mob-modal {
+    position: fixed;
+    width: 100%;
+    background-color:#BEA69E;
+    padding-top: 100px;
+    position: relative;
+    max-width: 218px;
+    
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%) scale(1);
+
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    
 }
 
-.menu-close-button {
-  display: flex;
-  margin-top: 20px;
-  margin-right: 20px;
-  margin-left: auto;
-  border: 0;
-  background-color: transparent;
-  transition: margin-right 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+@media screen and (min-width: 767.98px)  and (max-width: 1279.98px) {
+  .mob-modal {
+
+  }
 }
 
-.close-button-icon {
-  stroke: #121212;
+@media screen and (min-width: 1279.98px) {
+  .backdrop {
+    display: none;
+  }
 }
-.burger-menu-nav {
-  position: absolute;
-  margin-top: 180px;
-  margin-left: 20px;
-}
-.header-nav {
-  color: #121212;
-  font-family: DM Sans;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-transform: uppercase;
-  padding-bottom: 20px;
+.mobile-close-btn { 
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
-.header-nav:hover{
+@media screen and (min-width: 767.98px)  and (max-width: 1279.98px) {
+  .mobile-close-btn {
+        width: 40px;
+        height: 40px;
+        right: 32px;
+  }
+}
+
+/* @media screen and (min-width: 374.98px and max-width: 1279.98px) {
+  .backdrop {
+    display: none;
+  }
+} */
+    
+.mobile-menu-icon {
+    stroke: #121212;
+    stroke-width: 3px;
+    width: 32px;
+    height: 32px;
+}
+.mobile-menu-icon:hover,
+.mobile-menu-icon:focus { 
+  stroke: white;
+  }
+
+.mobile-nav-list {
+color: var(--black, #121212);
+font-size: 14px;
+font-weight: 400;
+text-transform: uppercase;
+display: flex;
+flex-direction: column;
+gap: 20px;
+margin-left: 20px;
+/* margin-bottom: 133px; */
+}
+
+.mobile-nav-item {
+}
+.mobile-nav-link {
+}
+.mobile-nav-link:hover,
+.mobile-nav-link:focus {
+color: var(--black, #121212);
+font-size: 14px;
 font-weight: 700;
+text-transform: uppercase;
+}
+.photocamera-menu-img {
+ 
 }
 
+/*MOBILE MENU END*/
 
-@media screen and (min-width: 768px;){
-    .menu-conteiner{
-        transition: width 250ms cubic-bezier(0.4, 0, 0.2, 1);
-            width: 480px;
-            height: 1024px;
-    }
-    .menu-close-button{
-    display: flex;
-        margin-top: 20px;
-        margin-right: 32px;
-        margin-left: auto;
-        border: 0;
-        background-color: transparent;
-        transition: margin-right 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-        .burger-menu-nav {
-            position: absolute;
-            margin-top: 232px;
-            margin-left: 64px;}
-            .header-nav{
-                padding-bottom: 28px;
-            }
-        
-}
+

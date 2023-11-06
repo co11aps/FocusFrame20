@@ -1,46 +1,50 @@
-<!-- header menu -->
-<div class="conteiner js-menu-container" id="mobile-menu">
-  <div class="menu-conteiner">
-    <button type="button" class="menu-close-button js-close-menu">
-      <svg class="close-button-icon" width="32" height="32">
-        <use href="/img/icons.svg#icon-close"></use>
-      </svg>
-    </button>
-    <nav class="burger-menu-nav">
-      <ul class="header-nav-list">
-        <li class="header-nav">
-          <a href="#about">ABOUT US</a>
-        </li>
-        <li class="header-nav">
-          <a href="#courses" class="burger-menu-link">OUR COURSES</a>
-        </li>
-        <li class="header-nav">
-          <a href="#mentors" class="burger-menu-link">OUR MENTORS</a>
-        </li>
-        <li class="header-nav">
-          <a href="#reviews" class="burger-menu-link">REVIEWS</a>
-        </li>
-        <li class="header-nav">
-          <a href="#contacts" class="burger-menu-link">CONTACTS</a>
-        </li>
-        <picture class="burger-menu-img">
-          <source
-            srcset="/img/header/cam-tab.webp 1x, /img/header/cam-tab@2x.webp 2x"
-            media="(min-width: 768px)"
-          />
-          <source
-            srcset="/img/header/cam-mob.webp 1x, /img/header/cam-mob@2x.webp"
-            media="(min-width:375px)"
-          />
-          <img
-            class="mobile-menu-img"
-            src="/img/header/cam-mob.png"
-            alt="camera"
-            width="329"
-            height="218"
-          />
-        </picture>
-      </ul>
-    </nav>
-  </div>
-</div>
+
+    <!--MOBILE-MENU-START  -->
+    <div class="backdrop js-menu-container" id="mobile-menu">
+        <div class="mob-modal">
+            <button class="mobile-close-btn">
+                <svg class="mobile-menu-icon" width="16" height="16">
+                    <use href="./img/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+            <ul class="mobile-nav-list list">
+                <li class="mobile-nav-item"><a class="mobile-nav-link link" href="#about">About us</a></li>
+                <li class="mobile-nav-item"><a class="mobile-nav-link link" href="#courses">Our courses</a></li>
+                <li class="mobile-nav-item"><a class="mobile-nav-link link" href="#mentors">Our mentors</a></li>
+                <li class="mobile-nav-item"><a class="mobile-nav-link link" href="#reviews">Reviews</a></li>
+                <li class="mobile-nav-item"><a class="mobile-nav-link link" href="#footer">Contacts</a></li>
+            </ul>
+            
+            <picture>
+                <!--MOBILE-->
+                <source srcset="/img/mobile-menu/webp/camera-menu_mob_w.webp 1x, /img/mobile-menu/webp/camera-menu_mob_w@2x.webp 2x" 
+                media="(max-width: 767.97px)" type="image/webp">
+                <source srcset="/img/mobile-menu/webp/camera-menu_tab_w.png 1x, /img/mobile-menu/webp/camera-menu_mob@2x.png 2x" 
+                media="(max-width: 767.97px)"/>
+
+                <img
+                class="photocamera-menu-img"
+                src="/img/hero/camera-menu_mob.png "
+                alt="photocamera"
+                width="218"
+                />
+
+                <!--TAB-->
+                <source srcset="/img/mobile-menu/webp/camera-menu_tab_w.webp 1x, /img/mobile-menu/webp/camera-menu_tab_w@2x.webp 2x" 
+                media="(min-width: 767.98px)" type="image/webp">
+                <source srcset="/img/mobile-menu/webp/camera-menu_tab.png 1x, /img/mobile-menu/webp/camera-menu_tab@2x.png 2x" 
+                media="(min-width: 767.98px)"
+                /> 
+                <!-- <img
+                class="photocamera-menu"
+                src="/img/hero/camera-menu_tab.png "
+                alt="Man with a camera"
+                width="476"
+                height="480"
+                />  -->
+
+            </picture>
+             </div>
+        </div>
+
+         <!--MOBILE-MENU-END-->
