@@ -1,4 +1,4 @@
-.advertisement-block {
+.vertisement-block {
   overflow: hidden;
   text-transform: uppercase;
   background-color: #121212;
@@ -7,18 +7,18 @@
   width: 100%;
 }
 
-.advertisement__inner {
+.vertisement__inner {
   display: flex;
   white-space: nowrap;
 }
 
-.advertisement__line {
+.vertisement__line {
   flex-shrink: 0;
   margin: 0;
   padding: 20px 0px;
   min-width: 100%;
   white-space: nowrap;
-  animation-name: advertisementinner;
+  animation-name: vertisementinner;
   animation-duration: 20s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
@@ -34,7 +34,7 @@
   color: #fff;
 }
 
-@keyframes advertisementinner {
+@keyframes vertisementinner {
   from {
     transform: translateX(0);
   }
@@ -48,7 +48,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .advertisement__line {
+  .vertisement__line {
     padding: 24px 0;
     font-size: 40px;
     line-height: 1.25;
@@ -56,7 +56,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .advertisement__line {
+  .vertisement__line {
     font-size: 59px;
     line-height: 1.08;
   }
