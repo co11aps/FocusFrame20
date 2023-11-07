@@ -29,8 +29,6 @@ ol.courses-list .courses-list-item::before {
 }
 
 .courses-title {
-  display: flex;
-  flex-wrap: nowrap;
   font-family: DM Sans;
   font-size: 28px;
   font-style: normal;
@@ -106,6 +104,13 @@ ol.courses-list .courses-list-item::before {
   line-height: 1.14;
 }
 
+.courses-item {
+display: flex;
+flex-direction: column;
+height: 100%;
+}
+
+
 .courses-item-dscr {
   display: inline-block;
   color: rgba(255, 255, 255, 0.5);
@@ -115,7 +120,7 @@ ol.courses-list .courses-list-item::before {
   font-weight: 400;
   line-height: 1.28;
   letter-spacing: -0.28px;
-  margin-top: 164px;
+  margin-top: auto;
 }
 
 @media screen and (min-width: 375px) {
