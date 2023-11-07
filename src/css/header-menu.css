@@ -113,7 +113,7 @@ screen and (min-resolution: 2dppx) {
 
   .menu-container {
     width: 480px;
-    height: 1024px;
+    height: 100vh;
     padding-top: 232px;
     padding-bottom: 0;
     padding-left: 64px;
