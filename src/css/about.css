@@ -12,13 +12,9 @@
   color: #bea69e;
 }
 
-.about-picture {
-  display: flex;
-
-  margin-bottom: 40px;
-}
-
 .about-camera {
+  margin-bottom: 40px;
+
   height: 209px;
   width: 335px;
   border-radius: 1000px;
@@ -55,13 +51,10 @@
     margin-bottom: 50px;
   }
 
-  .about-picture {
-    margin-bottom: 50px;
-  }
-
   .about-camera {
     height: 340px;
     width: 704px;
+    margin-bottom: 50px;
   }
 
   .about-article {
@@ -87,12 +80,9 @@
     align-items: center;
   }
 
-  .about-picture {
+  .about-camera {
     margin-right: 40px;
     margin-bottom: 0;
-  }
-
-  .about-camera {
     height: 260px;
     width: 488px;
   }
@@ -111,11 +101,9 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .about-picture {
-    margin-right: 50px;
-  }
 
   .about-camera {
+    margin-right: 50px;
     height: 240px;
     width: 560px;
   }
