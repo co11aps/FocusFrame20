@@ -286,3 +286,40 @@
     justify-content: space-between;
   }
 }
+
+.hero-div {
+  animation-name: bgherochange;
+  animation-duration: 6s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.hero-div {
+  transition: background-color 200ms ease-in-out 200ms;
+}
+
+.hero-div:hover {
+  animation-play-state: paused;
+}
+
+@keyframes bgherochange {
+  0% {
+    background-color: #1d1d1d;
+  }
+
+  25% {
+    background-color: rgb(40, 40, 40);
+  }
+
+  50% {
+    background-color: #1d1d1d;
+  }
+
+  75% {
+    background-color: rgb(40, 40, 40);
+  }
+
+  100% {
+    background-color: #1d1d1d;
+  }
+}
