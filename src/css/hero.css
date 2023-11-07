@@ -297,6 +297,11 @@
 .hero-div {
   transition: background-color 200ms ease-in-out 200ms;
 }
+
+.hero-container:hover {
+  animation-play-state: paused;
+}
+
 @keyframes bgherochange {
   0% {
     background-color: #1d1d1d;
