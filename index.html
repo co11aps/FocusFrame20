@@ -21,7 +21,7 @@
     <title>Focus.Frame</title>
     
     <script type="module" crossorigin src="/FocusFrame20/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/FocusFrame20/assets/index-8c75d19f.css">
+    <link rel="stylesheet" href="/FocusFrame20/assets/index-14eef49b.css">
   </head>
   <body>
     <header class="container header">
@@ -494,43 +494,20 @@
         </p>
 
         <form class="form-sign-up">
-          <input
-            class="input-sign-up"
-            id="user-subscribe-name"
-            type="text"
-            pattern="[A-Za-z]{20}"
-            name="modal-name"
-            placeholder="Enter your name"
-            required
-          />
-          <input
-            class="input-sign-up"
-            id="user-subscribe-email"
-            type="email"
-            pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
-            name="modal-email"
-            placeholder="Enter your email"
-            required
-          />
-          <textarea
-            class="textarea-sign-up"
-            name="user-comment"
-            id="user-comment"
-            placeholder="Message"
-            cols="30"
-            rows="10"
-          ></textarea>
+          <input class="input-sign-up" id="user-subscribe-name" type="text" pattern="[A-Za-z]{20}" name="modal-name"
+            placeholder="Enter your name" required />
+          <input class="input-sign-up" id="user-subscribe-email" type="email" name="email" required minlength="10"
+            maxlength="64" placeholder="Enter your email"
+            pattern="^[a-zA-Z0-9]{3,}[._-]?[a-zA-Z0-9]+@[a-zA-Z0-9.-]+[._-]?[a-zA-Z0-9]{2,}$" required />
+          <textarea class="textarea-sign-up" name="user-comment" id="user-comment" placeholder="Message" cols="30"
+            rows="10"></textarea>
           <button class="button-sign-up" type="submit">SEND</button>
 
           <div class="checkbox-sign-up">
             <p class="text-policy-sign-up">
               By clicking on “Send” button, you agree to our
-              <a
-                class="policy-sign-up"
-                href="https://www.privacypolicies.com/"
-                target="blank"
-                >Privacy Policy</a
-              >, and allow Promodo to use this information for marketing
+              <a class="policy-sign-up" href="https://www.privacypolicies.com/" target="blank">Privacy Policy</a>, and
+              allow Promodo to use this information for marketing
               purposes.
             </p>
           </div>
@@ -540,64 +517,24 @@
         <ul class="bloc-list-sign-up">
           <li class="list-sign-up-camera">
             <picture class="img-sign-up-camera">
-              <source
-                type="image/webp"
-                srcset="/FocusFrame20/assets/isabella-mendes-lrgkulxjcka-unsplash-11128-cb12d625.webp 1x, /FocusFrame20/assets/isabella-mendes-lrgkulxjcka-unsplash-11280-2x-25c74a2e.webp 2x"
-                media="(min-width: 1280px)"
-              />
-              <source
-                type="image/png"
-                srcset="/FocusFrame20/assets/isabella-mendes-unsplash-1-02df999a.png 1x, /FocusFrame20/assets/isabella-mendes-unsplash-1@2x-bb1dcd9c.png 2x"
-                media="(min-width: 1280px)"
-              />
-              <source
-                type="image/webp"
-                srcset="/FocusFrame20/assets/isabella-mendes-lrgkulxjcka-unsplash-11440-a74d5d5e.webp 1x, /FocusFrame20/assets/isabella-mendes-lrgkulxjcka-unsplash-11440-2x-522569b7.webp 2x"
-                media="(min-width: 1440px)"
-              />
-              <source
-                type="image/png"
-                srcset="/FocusFrame20/assets/isabella-mendes-lRgkUlxJCkA-unsplash11440-c3473e92.png 1x, /FocusFrame20/assets/isabella-mendes-lRgkUlxJCkA-unsplash11440@2x-6132ea27.png 2x"
-                media="(min-width: 1440px)"
-              />
-              <img
-                class="sign-up-camera"
-                src="/FocusFrame20/assets/isabella-mendes-unsplash-1-02df999a.png"
-                width="500"
-                alt="isabella-mendes"
-              />
+              <source type="image/webp" srcset="/FocusFrame20/assets/isabella-mendes-lrgkulxjcka-unsplash-11128-cb12d625.webp 1x, /FocusFrame20/assets/isabella-mendes-lrgkulxjcka-unsplash-11280-2x-25c74a2e.webp 2x" media="(min-width: 1280px)" />
+              <source type="image/png" srcset="/FocusFrame20/assets/isabella-mendes-unsplash-1-02df999a.png 1x, /FocusFrame20/assets/isabella-mendes-unsplash-1@2x-bb1dcd9c.png 2x" media="(min-width: 1280px)" />
+              <source type="image/webp" srcset="/FocusFrame20/assets/isabella-mendes-lrgkulxjcka-unsplash-11440-a74d5d5e.webp 1x, /FocusFrame20/assets/isabella-mendes-lrgkulxjcka-unsplash-11440-2x-522569b7.webp 2x" media="(min-width: 1440px)" />
+              <source type="image/png" srcset="/FocusFrame20/assets/isabella-mendes-lRgkUlxJCkA-unsplash11440-c3473e92.png 1x, /FocusFrame20/assets/isabella-mendes-lRgkUlxJCkA-unsplash11440@2x-6132ea27.png 2x" media="(min-width: 1440px)" />
+              <img class="sign-up-camera" src="/FocusFrame20/assets/isabella-mendes-unsplash-1-02df999a.png" width="500"
+                alt="isabella-mendes" />
             </picture>
           </li>
           <li class="list-sign-up-video">
             <picture class="img-sign-up-video">
-              <source
-                type="image/webp"
-                srcset="/FocusFrame20/assets/video-entry-product-11280-0ea937f1.webp 1x, /FocusFrame20/assets/video-entry-product-11280-2x-2c4c327b.webp 2x"
-                media="(min-width: 1280px)"
-              />
-              <source
-                type="image/png"
-                srcset="
+              <source type="image/webp" srcset="/FocusFrame20/assets/video-entry-product-11280-0ea937f1.webp 1x, /FocusFrame20/assets/video-entry-product-11280-2x-2c4c327b.webp 2x" media="(min-width: 1280px)" />
+              <source type="image/png" srcset="
                   /img/sigmup/jpeg/video-entry-product-1@2x.png     1x,
                   /img/sigmup/jpeg/video-entry-product-1@2x.png.png 2x
-                "
-                media="(min-width: 1280px)"
-              />
-              <source
-                type="image/webp"
-                srcset="/FocusFrame20/assets/video-entry-product-11440-5c17d7e3.webp 1x, /FocusFrame20/assets/video-entry-product-11440-2x-e1d31e36.webp 2x"
-                media="(min-width: 1440px)"
-              />
-              <source
-                type="image/png"
-                srcset="/FocusFrame20/assets/video-entry-product11440-5a66b7c8.png 1x, /FocusFrame20/assets/video-entry-product-1@2x-dc6aaf0d.png 2x"
-                media="(min-width: 1440px)"
-              />
-              <img
-                src="/FocusFrame20/assets/video-entry-product-1-9c3a3bcb.png"
-                width="500"
-                alt="isabella-mendes"
-              />
+                " media="(min-width: 1280px)" />
+              <source type="image/webp" srcset="/FocusFrame20/assets/video-entry-product-11440-5c17d7e3.webp 1x, /FocusFrame20/assets/video-entry-product-11440-2x-e1d31e36.webp 2x" media="(min-width: 1440px)" />
+              <source type="image/png" srcset="/FocusFrame20/assets/video-entry-product11440-5a66b7c8.png 1x, /FocusFrame20/assets/video-entry-product-1@2x-dc6aaf0d.png 2x" media="(min-width: 1440px)" />
+              <img src="/FocusFrame20/assets/video-entry-product-1-9c3a3bcb.png" width="500" alt="isabella-mendes" />
             </picture>
           </li>
         </ul>
@@ -605,7 +542,6 @@
     </div>
   </div>
 </section>
-
       <section class="section section-reviews" id="reviews">
   <div class="container container-reviews">
     <h3 class="reviews-head">Reviews</h3>
