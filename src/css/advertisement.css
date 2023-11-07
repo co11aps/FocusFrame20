@@ -19,8 +19,8 @@
   min-width: 100%;
   white-space: nowrap;
   animation-name: vertisementinner;
-  animation-duration: 20s;
-  animation-timing-function: ease-in-out;
+  animation-duration: 25s;
+  animation-timing-function: linear;
   animation-iteration-count: infinite;
   color: #bea69e;
   font-family: 'DM Sans', sans-serif;
@@ -52,6 +52,7 @@
     padding: 24px 0;
     font-size: 40px;
     line-height: 1.25;
+    animation-duration: 30s;
   }
 }
 
@@ -59,6 +60,7 @@
   .vertisement__line {
     font-size: 59px;
     line-height: 1.08;
+    animation-duration: 35s;
   }
 }
 
