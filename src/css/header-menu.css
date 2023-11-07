@@ -62,7 +62,6 @@ screen and (min-resolution: 2dppx) {
   z-index: 9989;
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
- 
 }
 .mobile-nav-link{
   border-radius:
@@ -81,11 +80,13 @@ screen and (min-resolution: 2dppx) {
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
+  
 }
 .text-on-black-image {
   color: black;
-  text-shadow: 1px 1px 0px #bea69e;;
-}-on-black-image
+  text-shadow: 1px 0px 0px #bea69e;
+  position:sticky;
+}
 
 .mobile-list-item {
   margin-bottom: 20px;
@@ -110,6 +111,9 @@ screen and (min-resolution: 2dppx) {
     top: 20px;
     right: 32px;
   }
+    .mobile-list-item {
+      margin-bottom: 28px;
+    }
 
   .menu-container {
     width: 480px;
