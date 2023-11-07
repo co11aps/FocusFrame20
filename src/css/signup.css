@@ -38,6 +38,13 @@
   opacity: 0.7;
   resize: none;
 }
+.textarea-sign-up:focus {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.textarea-sign-up::placeholder {
+  color: #fff;
+}
 .input-sign-up {
   width: 100%;
   padding: 14px 18px;
@@ -51,6 +58,11 @@
   line-height: 1.5;
   opacity: 0.7;
   resize: none;
+  outline-color: 1px solid rgba(255, 255, 255, 1);
+}
+.input-sign-up:focus {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
 }
 .text-policy-sign-up {
   color: rgba(255, 255, 255, 0.5);
@@ -59,13 +71,21 @@
   font-style: normal;
   font-weight: 400;
   line-height: 1.33;
+  outline-color: 1px solid rgba(255, 255, 255, 1);
 }
 .policy-sign-up {
   text-decoration-line: underline;
 }
+.input-sign-up::placeholder {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25;
+}
 .button-sign-up {
   border: none;
-  display: flex;
   width: 100%;
   margin: 40px 0 20px 0;
   padding: 14px 127px;
