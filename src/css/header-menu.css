@@ -64,13 +64,9 @@ screen and (min-resolution: 2dppx) {
   transition: transform 250ms ease-in-out;
  
 }
-
-/* .menu-picture {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        
-  } */
+.mobile-nav-link{
+  border-radius:
+}
 
 
 .backdrop.is-open {
@@ -86,6 +82,10 @@ screen and (min-resolution: 2dppx) {
   line-height: normal;
   text-transform: uppercase;
 }
+.text-on-black-image {
+  color: black;
+  text-shadow: 1px 1px 0px #bea69e;;
+}-on-black-image
 
 .mobile-list-item {
   margin-bottom: 20px;
@@ -134,7 +134,4 @@ screen and (min-resolution: 2dppx) {
           }
   }
 
-  /* .menu-picture {
-    width: 480px;
-  } */
 }
