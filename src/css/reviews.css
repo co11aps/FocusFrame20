@@ -28,15 +28,20 @@
   display: none;
 }
 .reviews-user-box {
+  /* display: flex;
+  gap: 10px; */
+  margin-bottom: 20px;
+}
+.reviews-user-information {
   display: flex;
   gap: 10px;
-  margin-bottom: 20px;
 }
 .reviews-user-info {
   padding-top: 6px;
 }
 .reviews-user-img {
   height: 56px;
+  margin-bottom: 4px;
 }
 .revievs-user-name {
   color: #fff;
@@ -58,6 +63,11 @@
   gap: 4px;
   align-items: center;
 }
+.reviews-icons {
+  display: block;
+  margin-left: 64px;
+}
+
 .reviews-icon {
   fill: rgba(190, 166, 158, 1);
 }
@@ -112,13 +122,24 @@
   }
   .reviews-user-box {
     position: relative;
+    display: flex;
+    justify-content: space-between;
+  }
+  .reviews-user-img {
+    margin-right: 10px;
+    margin-bottom: 0;
   }
   .reviews-icons {
-    position: absolute;
+    /* position: absolute;
     top: 0;
-    right: 0;
+    right: 0; */
   }
-
+  .reviews-user-information {
+    display: flex;
+  }
+  .revievs-user-position {
+    display: block;
+  }
   .reviews-user-img {
     margin-bottom: 20px;
   }
