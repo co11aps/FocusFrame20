@@ -57,6 +57,7 @@ ol.courses-list .courses-list-item::before {
   padding: 0;
 }
 
+
 .courses-list-item {
   width: 100%;
   height: 398px;
@@ -66,7 +67,43 @@ ol.courses-list .courses-list-item::before {
   padding: 28px;
   position: relative;
   background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+
+  list-style-position: inside;
+  opacity: 1;
+  background-position: center;
+  transition: transform 0.3s ease-in-out;
 }
+
+.courses-list-item:hover .courses-item-dscr {
+  color: #fff;
+}
+
+
+.courses-list-item:nth-child(1):hover {
+  transform: scale(1.05);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(/img/about/orhid.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.courses-list-item:nth-child(2):hover {
+  transform: scale(1.05);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(/img/about/land.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.courses-list-item:nth-child(3):hover {
+  transform: scale(1.05);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(/img/about/girl.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 
 .courses-link-div {
   display: flex;
