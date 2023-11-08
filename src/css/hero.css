@@ -32,8 +32,8 @@
   font-size: 40px;
   font-style: normal;
   font-weight: 500;
-  line-height: 44px; /* 110% */
-  letter-spacing: -1.6px;
+  line-height: 1.1;
+  letter-spacing: 0.04em;
   margin-bottom: 20px;
 }
 .hero-header-span {
@@ -173,7 +173,7 @@
   .header-main {
     font-size: 60px;
     line-height: 64px;
-    letter-spacing: normal;
+    letter-spacing: 0.04em;
   }
   .hero-text {
     width: 418px;
@@ -263,7 +263,7 @@
   .header-main {
     font-size: 64px;
     line-height: 68px;
-
+    letter-spacing: -0.04em;
     width: 563px;
   }
   .cameraboy-picture {
