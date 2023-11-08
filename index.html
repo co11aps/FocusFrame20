@@ -27,7 +27,7 @@
     <header class="container header">
   <div class="header-wrapper-menu">
     <nav class="nav">
-      <a class="nav-logo" href="./index.html">
+      <a class="nav-logo" href="./index.html" aria-label="focus frame logo">
         <svg class="nav-svg-logo" width="127" height="20">
           <use href="/FocusFrame20/assets/icons-132ffdd7.svg#icon-logo"></use>
         </svg>
@@ -41,7 +41,7 @@
       </ul>
     </nav>
     <div class="button-wrapper">
-      <a class="svg-link-camera" href="#signup"
+      <a class="svg-link-camera" href="#signup" aria-label="sign up"
         ><svg class="header-svg-camera" width="16" height="16">
           <use class="svg-camera" href="/FocusFrame20/assets/icons-132ffdd7.svg#icon-camera"></use>
         </svg>
@@ -51,6 +51,7 @@
         class="header-button-burger-menu js-open-menu"
         aria-expanded="false"
         aria-controls="mobile-menu"
+        aria-label="opem nenu"
       >
         <svg class="header-svg-burger" width="32" height="22">
           <use href="/FocusFrame20/assets/icons-132ffdd7.svg#icon-nav-burger-btn"></use>
@@ -58,7 +59,9 @@
       </button>
     </div>
   </div>
-  <a href="#signup" class="sing-up sing-up-button-text">Sign up</a>
+  <a href="#signup" class="sing-up sing-up-button-text" aria-label="sign up"
+    >Sign up</a
+  >
 </header>
 
     <main>
@@ -348,7 +351,7 @@
       <li class="courses-list-item">
         <div class="courses-item">
           <div class="courses-link-div">
-            <a class="courses-link" href="#signup">
+            <a class="courses-link" href="#signup" aria-label="sign up">
               <svg
                 class="courses-icon"
                 width="20"
@@ -375,7 +378,7 @@
       <li class="courses-list-item">
         <div class="courses-item">
           <div class="courses-link-div">
-            <a class="courses-link" href="#signup">
+            <a class="courses-link" href="#signup" aria-label="sign up">
               <svg
                 class="courses-icon"
                 width="20"
@@ -399,7 +402,7 @@
       <li class="courses-list-item">
         <div class="courses-item">
           <div class="courses-link-div">
-            <a class="courses-link" href="#signup">
+            <a class="courses-link" href="#signup" aria-label="sign up">
               <svg
                 class="courses-icon"
                 width="20"
@@ -538,20 +541,49 @@
         </p>
 
         <form class="form-sign-up">
-          <input class="input-sign-up" id="user-subscribe-name" type="text" pattern="[A-Za-z]{2,20}" name="modal-name"
-            placeholder="Enter your name" required />
-          <input class="input-sign-up" id="user-subscribe-email" type="email" name="email" required minlength="10"
-            maxlength="64" placeholder="Enter your email"
-            pattern="^[a-zA-Z0-9]{3,}[._-]?[a-zA-Z0-9]+@[a-zA-Z0-9.-]+[._-]?[a-zA-Z0-9]{2,}$" required />
-          <textarea class="textarea-sign-up" name="user-comment" id="user-comment" placeholder="Message" cols="30"
-            rows="10"></textarea>
-          <button class="button-sign-up" type="submit">SEND</button>
+          <input
+            class="input-sign-up"
+            id="user-subscribe-name"
+            type="text"
+            pattern="[A-Za-z]{2,20}"
+            name="modal-name"
+            placeholder="Enter your name"
+            required
+          />
+          <input
+            class="input-sign-up"
+            id="user-subscribe-email"
+            type="email"
+            name="email"
+            required
+            minlength="10"
+            maxlength="64"
+            placeholder="Enter your email"
+            pattern="^[a-zA-Z0-9]{3,}[._-]?[a-zA-Z0-9]+@[a-zA-Z0-9.-]+[._-]?[a-zA-Z0-9]{2,}$"
+            required
+          />
+          <textarea
+            class="textarea-sign-up"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Message"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <button class="button-sign-up" type="submit" aria-label="send">
+            SEND
+          </button>
 
           <div class="checkbox-sign-up">
             <p class="text-policy-sign-up">
               By clicking on &ldquo;Send&rdquo; button, you agree to our
-              <a class="policy-sign-up" href="https://www.privacypolicies.com/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>, and
-              allow Promodo to use this information for marketing
+              <a
+                class="policy-sign-up"
+                href="https://www.privacypolicies.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Privacy Policy</a
+              >, and allow Promodo to use this information for marketing
               purposes.
             </p>
           </div>
@@ -561,24 +593,64 @@
         <ul class="bloc-list-sign-up">
           <li class="list-sign-up-camera">
             <picture class="img-sign-up-camera">
-              <source type="image/webp" srcset="/FocusFrame20/assets/isabella-mendes-lrgkulxjcka-unsplash-11128-cb12d625.webp 1x, /FocusFrame20/assets/isabella-mendes-lrgkulxjcka-unsplash-11280-2x-25c74a2e.webp 2x" media="(min-width: 1280px)" />
-              <source type="image/png" srcset="/FocusFrame20/assets/isabella-mendes-unsplash-1-02df999a.png 1x, /FocusFrame20/assets/isabella-mendes-unsplash-1@2x-bb1dcd9c.png 2x" media="(min-width: 1280px)" />
-              <source type="image/webp" srcset="/FocusFrame20/assets/isabella-mendes-lrgkulxjcka-unsplash-11440-a74d5d5e.webp 1x, /FocusFrame20/assets/isabella-mendes-lrgkulxjcka-unsplash-11440-2x-522569b7.webp 2x" media="(min-width: 1440px)" />
-              <source type="image/png" srcset="/FocusFrame20/assets/isabella-mendes-lRgkUlxJCkA-unsplash11440-c3473e92.png 1x, /FocusFrame20/assets/isabella-mendes-lRgkUlxJCkA-unsplash11440@2x-6132ea27.png 2x" media="(min-width: 1440px)" />
-              <img class="sign-up-camera" src="/FocusFrame20/assets/isabella-mendes-unsplash-1-02df999a.png" width="500"
-                alt="isabella-mendes" />
+              <source
+                type="image/webp"
+                srcset="/FocusFrame20/assets/isabella-mendes-lrgkulxjcka-unsplash-11128-cb12d625.webp 1x, /FocusFrame20/assets/isabella-mendes-lrgkulxjcka-unsplash-11280-2x-25c74a2e.webp 2x"
+                media="(min-width: 1280px)"
+              />
+              <source
+                type="image/png"
+                srcset="/FocusFrame20/assets/isabella-mendes-unsplash-1-02df999a.png 1x, /FocusFrame20/assets/isabella-mendes-unsplash-1@2x-bb1dcd9c.png 2x"
+                media="(min-width: 1280px)"
+              />
+              <source
+                type="image/webp"
+                srcset="/FocusFrame20/assets/isabella-mendes-lrgkulxjcka-unsplash-11440-a74d5d5e.webp 1x, /FocusFrame20/assets/isabella-mendes-lrgkulxjcka-unsplash-11440-2x-522569b7.webp 2x"
+                media="(min-width: 1440px)"
+              />
+              <source
+                type="image/png"
+                srcset="/FocusFrame20/assets/isabella-mendes-lRgkUlxJCkA-unsplash11440-c3473e92.png 1x, /FocusFrame20/assets/isabella-mendes-lRgkUlxJCkA-unsplash11440@2x-6132ea27.png 2x"
+                media="(min-width: 1440px)"
+              />
+              <img
+                class="sign-up-camera"
+                src="/FocusFrame20/assets/isabella-mendes-unsplash-1-02df999a.png"
+                width="500"
+                alt="isabella-mendes"
+              />
             </picture>
           </li>
           <li class="list-sign-up-video">
             <picture class="img-sign-up-video">
-              <source type="image/webp" srcset="/FocusFrame20/assets/video-entry-product-11280-0ea937f1.webp 1x, /FocusFrame20/assets/video-entry-product-11280-2x-2c4c327b.webp 2x" media="(min-width: 1280px)" />
-              <source type="image/png" srcset="
+              <source
+                type="image/webp"
+                srcset="/FocusFrame20/assets/video-entry-product-11280-0ea937f1.webp 1x, /FocusFrame20/assets/video-entry-product-11280-2x-2c4c327b.webp 2x"
+                media="(min-width: 1280px)"
+              />
+              <source
+                type="image/png"
+                srcset="
                   /img/sigmup/jpeg/video-entry-product-1@2x.png     1x,
                   /img/sigmup/jpeg/video-entry-product-1@2x.png.png 2x
-                " media="(min-width: 1280px)" />
-              <source type="image/webp" srcset="/FocusFrame20/assets/video-entry-product-11440-5c17d7e3.webp 1x, /FocusFrame20/assets/video-entry-product-11440-2x-e1d31e36.webp 2x" media="(min-width: 1440px)" />
-              <source type="image/png" srcset="/FocusFrame20/assets/video-entry-product11440-5a66b7c8.png 1x, /FocusFrame20/assets/video-entry-product-1@2x-dc6aaf0d.png 2x" media="(min-width: 1440px)" />
-              <img src="/FocusFrame20/assets/video-entry-product-1-9c3a3bcb.png" width="500" alt="isabella-mendes" />
+                "
+                media="(min-width: 1280px)"
+              />
+              <source
+                type="image/webp"
+                srcset="/FocusFrame20/assets/video-entry-product-11440-5c17d7e3.webp 1x, /FocusFrame20/assets/video-entry-product-11440-2x-e1d31e36.webp 2x"
+                media="(min-width: 1440px)"
+              />
+              <source
+                type="image/png"
+                srcset="/FocusFrame20/assets/video-entry-product11440-5a66b7c8.png 1x, /FocusFrame20/assets/video-entry-product-1@2x-dc6aaf0d.png 2x"
+                media="(min-width: 1440px)"
+              />
+              <img
+                src="/FocusFrame20/assets/video-entry-product-1-9c3a3bcb.png"
+                width="500"
+                alt="isabella-mendes"
+              />
             </picture>
           </li>
         </ul>
@@ -586,6 +658,7 @@
     </div>
   </div>
 </section>
+
       <section class="section section-reviews" id="reviews">
   <div class="container container-reviews">
     <h3 class="reviews-head">Reviews</h3>
@@ -822,7 +895,12 @@
             pattern="^[a-zA-Z0-9]{3,}[._-]?[a-zA-Z0-9]+@[a-zA-Z0-9.-]+[._-]?[a-zA-Z0-9]{2,}$"
           />
         </div>
-        <button id="submitButton" class="footer-button-reg" type="submit">
+        <button
+          id="submitButton"
+          class="footer-button-reg"
+          type="submit"
+          aria-label="submit e-mail adsress"
+        >
           Go
         </button>
       </form>
@@ -841,10 +919,12 @@
           </a>
         </li>
         <li class="footer-privacy-item">
-          <a class="footer-privacy-text"             
+          <a
+            class="footer-privacy-text"
             href="https://www.privacypolicies.com/"
             target="_blank"
-            rel="noopener noreferrer">
+            rel="noopener noreferrer"
+          >
             2023 Focus Frame<br />&copy; All rights reserved
           </a>
         </li>
