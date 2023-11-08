@@ -78,18 +78,26 @@
   justify-content: center;
   align-items: center;
   border-radius: 12px;
-  background: var(--white, #fff);
-  color: var(--black, #121212);
+  background-color: #fff;
+  color: #121212;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.25;
   text-transform: uppercase;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 .button-sign-up:hover {
   color: #bea69e;
-  background: #1d1d1d;
+  background-color: #1d1d1d;
 }
+
+.sing-up:hover,
+.sing-up:focus {
+  background-color: #1d1d1d;
+  color: #bea69e;
+}
+
 .bloc-sign-up {
   display: none;
 }
