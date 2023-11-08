@@ -286,6 +286,12 @@
 .footer-privacy-item:not(:last-child) {
   margin-right: auto;
 }
+
+.footer-privacy-text:hover,
+.footer-privacy-text:focus {
+  color: #bea69e;
+}
+
 @media screen and (min-width: 767.98px) {
   .footer-privacy {
     flex-basis: 100%;
