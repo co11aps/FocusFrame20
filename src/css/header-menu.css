@@ -38,12 +38,12 @@
   background-color: #bea69e;
   z-index: 9999;
   background-image: url('/img/mobile-menu/jpeg/cam-mob.jpg');
-    background-repeat: no-repeat;
-    background-position:bottom;
-    background-image: image-set(
-      url('../img/mobile-menu/webp/camera-menu_mob_w.webp') 1x,
-      url('../img/mobile-menu/webp/camera-menu_mob_w@2x.webp') 2x,
-    );
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-image: image-set(
+    url('../img/mobile-menu/webp/camera-menu_mob_w.webp') 1x,
+    url('../img/mobile-menu/webp/camera-menu_mob_w@2x.webp') 2x
+  );
 }
 
 /* @media screen and (min-device-pixel-ratio: 2),
@@ -69,10 +69,9 @@ screen and (min-resolution: 2dppx) {
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
 }
-.mobile-nav-link{
-  border-radius:
+.mobile-nav-link {
+  border-radius: ;
 }
-
 
 .backdrop.is-open {
   transform: translateX(0);
@@ -80,18 +79,16 @@ screen and (min-resolution: 2dppx) {
 
 .mobile-menu {
   color: #121212;
-  font-family: DM Sans;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
-  
 }
 .text-on-black-image {
   color: black;
   text-shadow: 1px 0px 0px #bea69e;
-  position:sticky;
+  position: sticky;
 }
 
 .mobile-list-item {
@@ -120,9 +117,9 @@ screen and (min-resolution: 2dppx) {
     top: 20px;
     right: 32px;
   }
-    .mobile-list-item {
-      margin-bottom: 28px;
-    }
+  .mobile-list-item {
+    margin-bottom: 28px;
+  }
 
   .menu-container {
     width: 480px;
@@ -133,14 +130,15 @@ screen and (min-resolution: 2dppx) {
     background-color: #bea69e;
     z-index: 9999;
     background-image: url(/img/mobile-menu/webp/camera-menu_tab_w.webp);
-      background-repeat: no-repeat;
-      background-position: bottom;
+    background-repeat: no-repeat;
+    background-position: bottom;
     background-image: image-set(
       url('../img/mobile-menu/webp/camera-menu_tab_w.webp') 1x,
-          url('../img/mobile-menu/webp/camera-menu_tab_w@2x.webp') 2x,
-        );}
+      url('../img/mobile-menu/webp/camera-menu_tab_w@2x.webp') 2x
+    );
+  }
 
-      /* @media screen and (min-device-pixel-ratio: 2),
+  /* @media screen and (min-device-pixel-ratio: 2),
         screen and (min-resolution: 192dpi),
         screen and (min-resolution: 2dppx) {
           .menu-container {
@@ -150,5 +148,4 @@ screen and (min-resolution: 2dppx) {
             background-size: contain;
           }
   } */
-
 }

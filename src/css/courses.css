@@ -29,7 +29,6 @@ ol.courses-list .courses-list-item::before {
 }
 
 .courses-title {
-  font-family: DM Sans;
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
@@ -43,7 +42,6 @@ ol.courses-list .courses-list-item::before {
 }
 .courses-dscr {
   color: #fff;
-  font-family: DM Sans;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -56,7 +54,6 @@ ol.courses-list .courses-list-item::before {
   gap: 20px;
   padding: 0;
 }
-
 
 .courses-list-item {
   width: 100%;
@@ -77,7 +74,6 @@ ol.courses-list .courses-list-item::before {
 .courses-list-item:hover .courses-item-dscr {
   color: #fff;
 }
-
 
 .courses-list-item:nth-child(1):hover {
   transform: scale(1.05);
@@ -102,8 +98,6 @@ ol.courses-list .courses-list-item::before {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
 
 .courses-link-div {
   display: flex;
@@ -142,11 +136,10 @@ ol.courses-list .courses-list-item::before {
 }
 
 .courses-item {
-display: flex;
-flex-direction: column;
-height: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
-
 
 .courses-item-dscr {
   display: inline-block;
