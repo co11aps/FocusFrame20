@@ -37,11 +37,16 @@
   padding-left: 20px;
   background-color: #bea69e;
   z-index: 9999;
-  background-image: url(../img/mobile-menu/webp/camera-menu_mob_w.webp);
+  background-image: url('/img/mobile-menu/jpeg/cam-mob.jpg');
     background-repeat: no-repeat;
     background-position:bottom;
+    background-image: image-set(
+      url('../img/mobile-menu/webp/camera-menu_mob_w.webp') 1x,
+      url('../img/mobile-menu/webp/camera-menu_mob_w@2x.webp') 2x,
+    );
 }
-@media screen and (min-device-pixel-ratio: 2),
+
+/* @media screen and (min-device-pixel-ratio: 2),
 screen and (min-resolution: 192dpi),
 screen and (min-resolution: 2dppx) {
   .menu-container {
@@ -50,7 +55,8 @@ screen and (min-resolution: 2dppx) {
       background-position: bottom;
       background-size: contain;
   }
-}
+} */
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -96,6 +102,9 @@ screen and (min-resolution: 2dppx) {
 .mobile-nav-link:focus {
   font-weight: 700;
 }
+.mobile-list-item:last-child {
+  margin: 0;
+}
 
 @media screen and (min-width: 768px) {
   .close-icon {
@@ -123,19 +132,23 @@ screen and (min-resolution: 2dppx) {
     padding-left: 64px;
     background-color: #bea69e;
     z-index: 9999;
-    background-image: url(../img/mobile-menu/webp/camera-menu_tab_w.webp);
+    background-image: url(/img/mobile-menu/webp/camera-menu_tab_w.webp);
       background-repeat: no-repeat;
-      background-position: bottom;}
+      background-position: bottom;
+    background-image: image-set(
+      url('../img/mobile-menu/webp/camera-menu_tab_w.webp') 1x,
+          url('../img/mobile-menu/webp/camera-menu_tab_w@2x.webp') 2x,
+        );}
 
-      @media screen and (min-device-pixel-ratio: 2),
+      /* @media screen and (min-device-pixel-ratio: 2),
         screen and (min-resolution: 192dpi),
         screen and (min-resolution: 2dppx) {
           .menu-container {
-            background-image: url(../img/mobile-menu/png/camera-menu_tab@2x.png);
+            background-image: url(/img/mobile-menu/png/camera-menu_tab@2x.png);
             background-repeat: no-repeat;
             background-position: bottom;
             background-size: contain;
           }
-  }
+  } */
 
 }
