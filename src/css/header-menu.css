@@ -37,6 +37,7 @@
   padding-left: 20px;
   background-color: #bea69e;
   z-index: 9999;
+  overflow: scroll;
   background-image: url('/img/mobile-menu/jpeg/cam-mob.jpg');
   background-repeat: no-repeat;
   background-position: bottom;
