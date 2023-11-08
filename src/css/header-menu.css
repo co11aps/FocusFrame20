@@ -37,8 +37,7 @@
   padding-left: 20px;
   background-color: #bea69e;
   z-index: 9999;
- overflow: scroll; 
-  
+  overflow: scroll;
   background-image: url('/img/mobile-menu/jpeg/cam-mob.jpg');
     background-repeat: no-repeat;
     background-position:bottom;
@@ -60,11 +59,6 @@
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
 }
-@media only screen and (min-width: 1280px) {
-  .backdrop {
-    display: none;
-  }
-}
 .mobile-nav-link{
   border-radius:
 }
@@ -82,7 +76,6 @@
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
-  align-items: center
   
 }
 .text-on-black-image {
