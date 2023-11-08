@@ -28,7 +28,7 @@
 }
 .header-main {
   color: #fff;
-  font-family: DM Sans;
+  /* font-family: DM Sans; */
   font-size: 40px;
   font-style: normal;
   font-weight: 500;
@@ -43,7 +43,7 @@
 }
 .hero-text {
   color: #fff;
-  font-family: DM Sans;
+  /* font-family: DM Sans; */
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
