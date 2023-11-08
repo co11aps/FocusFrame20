@@ -12,7 +12,6 @@ ol.courses-list .courses-list-item::before {
   content: counter(item, decimal-leading-zero) '';
   position: absolute;
   color: rgba(255, 255, 255, 0.4);
-  font-family: DM Sans;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -128,7 +127,6 @@ ol.courses-list .courses-list-item::before {
   display: inline-block;
   margin-top: 28px;
   color: #fff;
-  font-family: DM Sans;
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
@@ -144,7 +142,6 @@ ol.courses-list .courses-list-item::before {
 .courses-item-dscr {
   display: inline-block;
   color: rgba(255, 255, 255, 0.5);
-  font-family: DM Sans;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
