@@ -78,7 +78,7 @@ ol.courses-list .courses-list-item::before {
 .courses-list-item:nth-child(1):focus {
   transform: scale(1.05);
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)),
-    url(/img/about/orhid.jpg);
+    url(/img/about/orhid.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -87,7 +87,7 @@ ol.courses-list .courses-list-item::before {
 .courses-list-item:nth-child(2):focus {
   transform: scale(1.05);
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)),
-    url(/img/about/land.jpg);
+    url(/img/about/land.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -96,7 +96,7 @@ ol.courses-list .courses-list-item::before {
 .courses-list-item:nth-child(3):focus {
   transform: scale(1.05);
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)),
-    url(/img/about/girl.jpg);
+    url(/img/about/girl.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
