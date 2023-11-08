@@ -74,7 +74,8 @@ ol.courses-list .courses-list-item::before {
   color: #fff;
 }
 
-.courses-list-item:nth-child(1):hover {
+.courses-list-item:nth-child(1):hover,
+.courses-list-item:nth-child(1):focus {
   transform: scale(1.05);
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url(/img/about/orhid.jpg);
@@ -82,7 +83,8 @@ ol.courses-list .courses-list-item::before {
   background-size: cover;
 }
 
-.courses-list-item:nth-child(2):hover {
+.courses-list-item:nth-child(2):hover,
+.courses-list-item:nth-child(2):focus {
   transform: scale(1.05);
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url(/img/about/land.jpg);
@@ -90,7 +92,8 @@ ol.courses-list .courses-list-item::before {
   background-size: cover;
 }
 
-.courses-list-item:nth-child(3):hover {
+.courses-list-item:nth-child(3):hover,
+.courses-list-item:nth-child(3):focus {
   transform: scale(1.05);
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url(/img/about/girl.jpg);
