@@ -77,10 +77,11 @@ ol.courses-list .courses-list-item::before {
 
 .courses-list-item:nth-child(1) {
   /* transform: scale(1.05); */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
     url('/img/about/orhid.jpg');
 
   background-image: image-set(
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
     url('/img/about/orhid.webp') 1x,
     url('/img/about/orhid@2x.webp') 2x,
     url('/img/about/orhid.jpg') 1x,
@@ -93,10 +94,11 @@ ol.courses-list .courses-list-item::before {
 
 .courses-list-item:nth-child(2) {
   /* transform: scale(1.05); */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
     url('/img/about/land.jpg');
 
   background-image: image-set(
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
     url('/img/about/land.webp') 1x,
     url('/img/about/land@2x.webp') 2x,
     url('/img/about/land.jpg') 1x,
@@ -108,12 +110,12 @@ ol.courses-list .courses-list-item::before {
 
 .courses-list-item:nth-child(3) {
   /* transform: scale(1.05); */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
     url(/img/about/girl.webp);
 
   background-image: image-set(
-    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4))
-      url('/img/about/girl.webp') 1x,
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url('/img/about/girl.webp') 1x,
     url('/img/about/girl@2x.webp') 2x,
     url('/img/about/girl.jpg') 1x,
     url('/img/about/girl@2x.jpg') 2x
@@ -249,10 +251,11 @@ ol.courses-list .courses-list-item::before {
   .courses-list-item:nth-child(1):hover,
   .courses-list-item:nth-child(1):focus {
     transform: scale(1.05);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
       url('/img/about/orhid.jpg');
 
     background-image: image-set(
+      linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
       url('/img/about/orhid.webp') 1x,
       url('/img/about/orhid@2x.webp') 2x,
       url('/img/about/orhid.jpg') 1x,
@@ -267,10 +270,11 @@ ol.courses-list .courses-list-item::before {
   .courses-list-item:nth-child(2):hover,
   .courses-list-item:nth-child(2):focus {
     transform: scale(1.05);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
       url('/img/about/land.jpg');
 
     background-image: image-set(
+      linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
       url('/img/about/land.webp') 1x,
       url('/img/about/land@2x.webp') 2x,
       url('/img/about/land.jpg') 1x,
@@ -285,10 +289,11 @@ ol.courses-list .courses-list-item::before {
   .courses-list-item:nth-child(3):hover,
   .courses-list-item:nth-child(3):focus {
     transform: scale(1.05);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
       url('/img/about/girl.jpg');
 
     background-image: image-set(
+      linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
       url('/img/about/girl.webp') 1x,
       url('/img/about/girl@2x.webp') 2x,
       url('/img/about/girl.jpg') 1x,
