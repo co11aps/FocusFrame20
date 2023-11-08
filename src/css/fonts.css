@@ -1,12 +1,10 @@
 @font-face {
   font-family: DM sans;
   src: url('../fonts/DMSans-VariableFont_opsz\,wght.ttf');
-  font-display: swap;
 }
 
 @font-face {
   font-style: italic;
   font-family: DM sans;
   src: url('../fonts/DMSans-Italic-VariableFont_opsz\,wght.ttf');
-  font-display: swap;
 }
